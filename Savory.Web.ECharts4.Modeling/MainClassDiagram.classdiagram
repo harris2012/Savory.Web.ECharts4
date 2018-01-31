@@ -1328,6 +1328,338 @@
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="99f1b464-dd6e-4831-bb29-3406d8405783" name="Timeline" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="92fe6cd4-9b4a-4935-b961-f414a1d81dad" />
+        <ownedAttributesInternal>
+          <property Id="a15ea0c1-791c-46a0-94f9-41576af517c2" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e2a5ad56-0109-4957-9c6b-56cc72c680ed" />
+          </property>
+          <property Id="d5829a77-5e1a-4d2a-95cd-73b59434aced" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5c2c5a20-6f36-435b-9c3d-605f94b386f1" />
+          </property>
+          <property Id="6c56ab74-a401-4427-b3b6-5594ca30c31a" name="AxisType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dacde677-297e-4eb2-bc61-ab88c89ef097" />
+          </property>
+          <property Id="f80e86f7-1483-4048-b986-5e6203f78f73" name="CurrentIndex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2944d751-b5c6-45db-b702-7dc192276b6c" />
+          </property>
+          <property Id="6fc76137-75a1-4dab-baa9-67aeae731b60" name="AutoPlay" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="378cff99-0e81-4ac0-bdb3-db637004d027" />
+          </property>
+          <property Id="dfcc2d30-96c6-48cc-b18b-c5292ec083e2" name="Rewind" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="004f578f-c293-4b8f-bb1d-9689d8d2e5f7" />
+          </property>
+          <property Id="9924779c-bd77-4d96-b614-5e92dd6fa8d6" name="Loop" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f0c9885a-0640-4841-8e89-2e3e51002aac" />
+          </property>
+          <property Id="06ef2cbc-d889-49e4-8478-ede15adab78d" name="PlayInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="33f71eaf-c115-4c95-96cb-80751db36204" />
+          </property>
+          <property Id="9dafcddc-9b88-48fa-940d-e7e263565af3" name="RealTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="22a7c12f-8dda-44f7-8c5d-a60737f6d64d" />
+          </property>
+          <property Id="0a9d2ed6-9192-40c0-b81a-ee6fa334cbd1" name="ControlPosition" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="af2ba9a2-90f0-49e7-9687-1819338b1019" />
+          </property>
+          <property Id="7c9b5feb-f3cc-42ab-a0bc-8a9552391482" name="ZLevel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f19d5732-5521-4398-96d5-da2362cef291" />
+          </property>
+          <property Id="e86dad64-c8c8-4657-b678-f9e14c75a40f" name="Z" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="250e97a8-e666-41be-bfc8-104aa29dc50a" />
+          </property>
+          <property Id="740bd7ab-790d-4931-bbb9-146051760f1b" name="Left" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d3e3412c-3ed3-4070-8788-997a879c1883" />
+          </property>
+          <property Id="1a0e4803-367c-4bc8-bb7f-37b1289c2bdb" name="Top" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="06f210db-2919-4068-9a75-7495efbd948a" />
+          </property>
+          <property Id="079ef7d7-96b0-4ba8-ac93-5128e86106f5" name="Right" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="29704097-61ea-4103-a705-66333b7d19a4" />
+          </property>
+          <property Id="940e8f9c-4269-4b95-a18d-0ebc863cdc8c" name="Bottom" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e120485b-1a94-460f-ab68-24a32e2747dd" />
+          </property>
+          <property Id="0241ce78-22ab-41b1-abd4-242281644623" name="Padding" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2a365262-f5e6-498d-9391-9f176b0162fb" />
+          </property>
+          <property Id="1f04360f-c7c4-47a8-bebb-e2f660495112" name="Orident" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bc4da3f3-2d63-43fb-a8a0-cf8f6792025f" />
+          </property>
+          <property Id="330ec5b2-519e-421c-9e8f-40517f7774e4" name="Inverse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0dec9adc-8cd9-4519-871b-973424613d66" />
+          </property>
+          <property Id="6ccf8991-6c09-4f35-bf25-3aba8d25ab04" name="Symbol" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b9e129b7-2798-4910-8df7-55930abf0462" />
+          </property>
+          <property Id="e2d81940-6f4a-4802-b7c2-3b2967926593" name="SymbolSize" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="77330dc7-ea30-42df-803a-13dd05bec05a" />
+          </property>
+          <property Id="b6b4ceca-9627-41ba-8a28-4adcc3135b14" name="SymbolRotate" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1a1cf43a-5ac3-4e9a-bf42-a9872410df76" />
+          </property>
+          <property Id="1ecf7c75-c45d-4ed5-a4dd-9ca7eda6ff63" name="SymbolOffset" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f04e8790-2281-4c78-98ee-cc3d360b1564" />
+          </property>
+          <property Id="e0271ed5-2e73-4801-8d36-365884bbce52" name="LineStyle" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d98bcc66-1e74-4a8a-a66c-27b5405bb7a2" />
+          </property>
+          <property Id="2d1ce269-1468-43fe-82ed-a20047582a16" name="Label" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a597db16-bf0f-44d1-aa57-ddd0e95cd849" />
+          </property>
+          <property Id="499bc894-c2a6-4d62-a1ce-f17bef73172a" name="ItemStyle" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="edea5827-1980-4f42-8b91-8bd4ff5e47a5" />
+          </property>
+          <property Id="991b54ce-9096-4549-8ce4-7c1bb5215785" name="CheckPointStyle" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d1e281ea-aa4e-4d41-bb76-60fe9ade3d85" />
+          </property>
+          <property Id="833d4e78-2b99-4120-9068-d58106d26d7c" name="ControlStyle" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2514fc49-552f-432e-a9cd-6f57d398ace4" />
+          </property>
+          <property Id="32121f34-9be4-4fce-bd1c-7b11f28343c9" name="Emphasis" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3e5fb11c-e03c-4115-bcf3-b41f4ed0aae3" />
+          </property>
+          <property Id="0bc98fbb-806d-4877-859a-cf5b00a264df" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2567c5b3-5fd1-438c-b3b2-0b679718cbf0" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9bf20bfd-7ae6-4588-9adc-5bb150513e38" name="Graphic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b83c0eb1-ee0a-4152-b937-5b790a67bcbe" />
+        <ownedAttributesInternal>
+          <property Id="30f478a4-f221-445b-b0a8-ed80a5d390ab" name="Elements" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4207fa6d-7b3b-435c-bd28-bc05e08f0653" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0048e655-4696-423f-a790-72bd42e2a73a" name="Calendar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9b9f3c64-2ff4-4a6b-99cb-3755b8dbc12d" />
+        <ownedAttributesInternal>
+          <property Id="1f17f733-d34a-4540-b010-5651e324bbc3" name="ZLevel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7ed69ecb-f360-4e0a-a750-943901051c6c" />
+          </property>
+          <property Id="f8124da8-a329-4e97-b4f9-337adb54dcfd" name="Z" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3538cd68-eb25-4bf2-8591-a89190f09a39" />
+          </property>
+          <property Id="47fdf9b9-8e53-4e30-afdf-036209bfe064" name="Left" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="590d46c6-bec3-48dd-8e44-40bbf5622394" />
+          </property>
+          <property Id="07a00e90-ca0d-4f68-85e8-cd39eb8cf075" name="Top" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2035bc64-97f3-43b0-a2e6-b3920fdb6ac3" />
+          </property>
+          <property Id="05f656c2-127d-4c4d-8133-53c6db737d2b" name="Right" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d16c33b9-87c7-4bde-9d90-351e9be9a58f" />
+          </property>
+          <property Id="8f373c4d-df8a-427e-845f-af8c3ad865f2" name="Bottom" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a9afec6d-2c5b-4101-9ef0-39ce1182bd67" />
+          </property>
+          <property Id="aa0b6f18-8b3d-4b91-b4f7-d6f6d9396ea0" name="Width" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ff0f45fa-7ebb-466c-92c7-3d1dcc1f2261" />
+          </property>
+          <property Id="a9ffa522-d3fb-4162-8c3c-554bedf6bcc7" name="Height" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="19c16b19-b2c7-4845-aa73-e30ade5c6cc9" />
+          </property>
+          <property Id="58322a19-bde8-4514-99df-0a97be2443bb" name="Rage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cb2f5482-0574-4d88-b077-e584dac1baeb" />
+          </property>
+          <property Id="8ff5b5d1-f0dd-48e0-93d6-84710f48d074" name="CellSize" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="03a5b82c-f748-4031-b24e-1c65140012e6" />
+          </property>
+          <property Id="1dc1eeee-29b5-45be-988c-6ab0c9fd8d0c" name="Orient" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8da476ec-58e4-4453-8b0d-74cfc5c1af0a" />
+          </property>
+          <property Id="4bf4630e-892f-4782-ab1b-85027c5719bd" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3c3cfa3c-21d2-446e-af88-4e83c4a8fc2b" />
+          </property>
+          <property Id="f3325bd2-784b-4910-b04f-c6fb93ebfee0" name="ItemStyle" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c777d109-0312-4cdc-9d16-0c51623ed4c5" />
+          </property>
+          <property Id="4372cd64-4ddc-43ce-8661-694bb8677a01" name="DayLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="be71e38e-c5de-482b-9636-6c8e46f2c1e3" />
+          </property>
+          <property Id="cb53d66c-4570-4fcd-b457-d8b672cd21dc" name="MonthLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e1196811-ab60-4112-b1a7-a14d472e2c62" />
+          </property>
+          <property Id="2598894e-49b7-4ae3-9e06-d54c4343b417" name="YearLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d8d720ad-4862-4291-996b-97eda80db1c3" />
+          </property>
+          <property Id="6672aa91-7339-4b59-b7b8-16f9e0a276ab" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1bbf3474-b344-4759-b20e-157fec937151" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a6eeab6c-08af-43c5-9bad-b3dcfc4cc023" name="DataSet" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e3e08a87-b37b-48cc-a6a5-da6a52fc9b8a" />
+        <ownedAttributesInternal>
+          <property Id="c4333f85-a787-49da-a9a8-3f0e4a56c84b" name="Source" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2bc90665-6b08-49af-bb26-65f9bbe2686e" />
+          </property>
+          <property Id="add2bec2-f2cd-42ed-aa07-c7f21502ec1d" name="Dimensions" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fbf1b4da-6d95-4f02-b254-641eb2e94942" />
+          </property>
+          <property Id="8c15c0d3-fb3c-41ad-86d7-9350b104dec7" name="SourceHeader" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c4576c13-3c55-4078-b726-5b3617884427" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="63d0c3d1-c10d-46e5-8fef-184b672cab03" name="Aria" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1967454f-7f5b-4284-8f10-af9fece01919" />
+        <ownedAttributesInternal>
+          <property Id="c41b65e4-304e-4346-9f3d-bece45d4f10e" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="81f3b84b-d511-44c6-bc5b-312094098dd1" />
+          </property>
+          <property Id="5a50b734-5b26-494e-979d-44a77093ca9f" name="Description" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b0b97de1-14f5-4ed4-81c2-5041da821558" />
+          </property>
+          <property Id="f964691f-a1bf-43d8-b4e3-23077c7c0eb2" name="General" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d48f4b83-3c2b-491c-932d-c558cb19fe6c" />
+          </property>
+          <property Id="b62f772e-7827-43fc-8aaf-d4baf9f78ee9" name="Series" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7e75684-64a1-4366-9bb0-0bd6c2d5fb5a" />
+          </property>
+          <property Id="d4d1df94-30a9-4875-91e5-7da8c0dab171" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="59d4774e-e7c2-45c3-a7ad-4f40a8992bd3" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5a3171bd-1f65-466e-8d2e-c69908e158be" name="Series" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fb7457c9-682f-42ba-94f2-29af6fe4911c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a64d67f0-a4f8-4b03-bd1a-2b54c404e94f" name="Color" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="88f4eba3-a260-456f-8772-03a96d43087f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="86921a31-e58d-41c7-a1c4-323b564062ad" name="BackgroundColor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0d2a81f4-ac29-4571-978c-84b373d83d04" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2cebb50d-7c8f-4597-9cbd-566350d88b4a" name="TextStyle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="94b74408-9907-49ea-90ac-9300106ec924" />
+        <ownedAttributesInternal>
+          <property Id="8d624821-b846-4a70-aa86-4844cf1ca92b" name="Color" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="42a8da75-eaa9-4864-badb-cf3f40dd14b9" />
+          </property>
+          <property Id="b1774dc9-e9fe-47b2-94fe-2403ba947020" name="FontStyle" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="40588697-349c-4bb3-a593-bc8b65f81d0b" />
+          </property>
+          <property Id="8c06dd2d-5492-4787-a91a-facedbb3cb5a" name="FontHeight" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="23f7d5ff-a409-43c7-80d3-9d6dc9a0e20f" />
+          </property>
+          <property Id="04846dcb-6fb7-43c3-aef0-2526572fec12" name="Fontamily" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="67550e73-9b11-4013-9be2-feb89c9d7cda" />
+          </property>
+          <property Id="f3584cfc-cdf8-4c13-8dda-b804dc52736e" name="FontSize" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a997bd59-fa61-43c9-b60e-27add128fe5d" />
+          </property>
+          <property Id="2bd0186b-7f13-421a-a5a8-6858e8626452" name="LineHeight" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="827d95e9-48ad-4b2d-a05a-3459808934bf" />
+          </property>
+          <property Id="cb691a7a-84bb-43db-8ec7-39fe0e405d6e" name="Width" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fedcdbd7-30c3-4621-9eee-ded394209355" />
+          </property>
+          <property Id="48167ece-693c-4b7e-b707-1aaa197a1a39" name="Height" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b6a9ec65-f941-45cd-a8f4-7d1b462e562f" />
+          </property>
+          <property Id="d9c61d22-b8a5-4c5e-91f1-9032553d5ef7" name="TextBorderColor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9020e11d-af95-4f13-b7c9-76ac8b16f345" />
+          </property>
+          <property Id="17f44ec0-9e6f-435b-b3eb-b5402c4432f1" name="TextBorderWidth" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bf7e5fe0-ab7e-42dc-bb91-0439c8dbb9b1" />
+          </property>
+          <property Id="44494fb4-1741-444b-ad11-fbd9c80e605a" name="TextShadowCOlor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d07c28e1-c9a4-4225-b253-dcd6e09e0a86" />
+          </property>
+          <property Id="fadf8cdb-e9f0-48c4-b171-5b4f87c38790" name="textShadowBlue" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e80ccca5-1ca7-4f96-bbff-e22c612ed2a4" />
+          </property>
+          <property Id="549dbd9c-00f8-48af-85f3-509994690105" name="TextShadowOffsetX" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9c32a5d3-7d70-49b8-860d-b576d8d12b30" />
+          </property>
+          <property Id="8fcae32c-8934-48af-af43-12b0db5a206d" name="TextShadowOffsetY" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5c206522-bcb2-43e7-8018-c99fd5dcf0f3" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6a200099-9781-4778-8346-3ff4740986dc" name="Animation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1af44a2e-21ed-40e0-a7df-34b9ec179dbb" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3a27b853-8979-4088-b866-b8ba52cf46ed" name="AnimationThreshold" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5e240f3e-8a21-4a37-b8b0-6129b0d5bcca" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ee22c1c0-249f-4e54-a651-90618bf0aa9d" name="AnimationDuration" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="79c5b212-054d-4418-b511-5d1a764f9cab" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f8c85e99-292f-4150-9e6a-7951f916562a" name="AnimationEasing" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="445b5a80-a801-4470-b594-3af0825be57e" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f679d6b0-717c-43c2-b524-650f377aeb46" name="AnimationDelay" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="92caba9c-ce30-4de3-a747-5e31557b849c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b8e7db95-98a9-4865-a478-5a2a575ca519" name="AnimationDurationUpdate" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4d6645b5-1d8e-40bc-b202-59c0fea06157" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="82bc42bd-086e-4c23-9bc4-f8e2c4280e3e" name="AnimationEasingUpdate" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="60ac7d97-52f6-412a-9bab-febea5c0cc6a" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="591aea02-064f-40bb-b96c-e9e3f76a01ae" name="AnimationDelayUpdate" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="774e9c51-94e5-4eaf-9ace-69857182408a" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="efc79a1b-dfaf-44b7-b12e-e3e08390c684" name="Progressive" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0b5ece8a-a755-4145-a8a2-08fe8578ba29" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a0294d7a-9235-4c33-b435-b32e3df907a3" name="ProgressiveThreshold" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="20d73ef8-60d2-4c06-982c-01157fbff0ef" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="376a314d-25cf-49bb-ac00-5c8c3f970161" name="BlendMode" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="893e27a3-5e73-4bb9-98ee-65b253278c18" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c7e250c6-2240-42a8-8e27-212dbcf36321" name="HoverLayerThreshold" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c0747c0e-cddf-44d5-baca-16ceec0d7f07" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f30d2dab-0e22-47be-8db8-7b43a88b0af8" name="UseUTC" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="935f9ada-f50d-4918-9444-0b5107f25d2f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="9af3ff89-3a82-428c-8e53-d8e58f7f1d3d" name="Savory.Web.ECharts4.Modeling">
     <elementDefinition Id="d11be684-5e64-43c7-b2c5-c74293687450" />
