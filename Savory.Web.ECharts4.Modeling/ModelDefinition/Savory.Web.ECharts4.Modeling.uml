@@ -1100,17 +1100,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="a99671d7-8b85-4c0d-9d83-25b471043017"
-            name="LogBase"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="46a43474-fffb-4938-9f96-9154daf5eb03"
             name="Silent"
             isLeaf="false"
@@ -1124,17 +1113,6 @@
           <property
             Id="4d690aa8-0e9b-4ded-9270-f8c40248b881"
             name="TriggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="557a19e1-3f53-4ba3-9a9c-55ad49fcb8fa"
-            name="AxisLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1168,17 +1146,6 @@
           <property
             Id="4b60b68f-0aba-4466-bfad-5f131499d08f"
             name="AplitArea"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="fb2ed9de-780d-4af4-bfc3-7a738711fe4d"
-            name="Data"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1385,17 +1352,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="542e917f-c0c3-4ab3-85e5-da262e95882b"
-            name="LogBase"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="c9486463-13d4-4b5b-8f42-432a62c112e1"
             name="Silent"
             isLeaf="false"
@@ -1409,17 +1365,6 @@
           <property
             Id="99963d9e-bc17-43c5-a85b-ca35d319a4b0"
             name="TriggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="acdd1402-1637-4798-a13d-a4d5379c4b7f"
-            name="AxisLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1453,17 +1398,6 @@
           <property
             Id="74ef8480-ff9e-4cd5-a95d-775050e9406e"
             name="AplitArea"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="aa37f0bf-63b6-4436-a074-03f204b96f55"
-            name="Data"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1769,17 +1703,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="2773e8a6-e8dd-4fa1-8c1d-29247fbe0b86"
-            name="LogBase"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="ec0ff21a-ef0d-408f-ad7a-81b7225e93fb"
             name="Silent"
             isLeaf="false"
@@ -1793,17 +1716,6 @@
           <property
             Id="f199e370-52a3-497f-a657-cb2ef853c131"
             name="TriggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="9f4779cc-c0cf-4106-91f7-6a816c875a5d"
-            name="AxisLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1837,17 +1749,6 @@
           <property
             Id="c82f980e-00bc-4bc9-b929-62d70c985fa5"
             name="SplitArea"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="67e3e68e-69fb-4eda-8275-990973062a89"
-            name="Data"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -2043,17 +1944,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="3b35f2f3-2931-463a-91a2-9f107d5256de"
-            name="LogBase"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="e03586b0-a908-4763-b845-a7e1e40e899a"
             name="Silent"
             isLeaf="false"
@@ -2067,17 +1957,6 @@
           <property
             Id="d6ba6387-5e96-4849-be68-5fbe2a1a07a2"
             name="triggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="31d16f57-e318-4653-b9a3-348ed3f677d3"
-            name="AxisLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -2111,17 +1990,6 @@
           <property
             Id="98ce67c5-4374-4f95-98c9-2859e8fb10eb"
             name="SplitArea"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="3495b570-4ab8-49ed-977d-dfc9eddb121b"
-            name="Data"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -3690,17 +3558,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="c13c098c-7be0-46e4-ac02-47e851268aef"
-            name="LogBase"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="83f298c2-88f7-4977-942d-2cb39049448e"
             name="Silent"
             isLeaf="false"
@@ -3723,30 +3580,8 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="bb919833-e156-4145-a218-0b07d856e0c4"
-            name="AxisLine"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="ecdedc09-8ca5-4885-b852-c0bc2ef59c4f"
             name="AxisTrick"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="ea4ccacf-c179-444a-bf57-2cc22d9699d7"
-            name="Data"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -4041,17 +3876,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="4d51f768-6105-452b-9765-8928e76e6937"
-            name="LogBase"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="b5c5d7bb-4919-4662-b5f7-64ff03eb8bca"
             name="Silent"
             isLeaf="false"
@@ -4065,17 +3889,6 @@
           <property
             Id="d09089ce-e3d5-48b8-99b7-4a6c4860d441"
             name="TriggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="7518b742-4c1b-4824-84d7-ccf6b56eac7c"
-            name="AxisLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -4109,17 +3922,6 @@
           <property
             Id="6d3ca3f3-390c-462e-b6f2-22f3830d5643"
             name="SolitArea"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="cdcfc0fc-e444-4236-abbc-ac892ccaaca2"
-            name="Data"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5352,6 +5154,39 @@
           <property
             Id="32df61c0-dc15-4ac3-b293-eebe98e0f598"
             name="AxisLabel"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="778f1f60-9a2b-49ba-aec7-399a7f1676c4"
+            name="AxisLine"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="03de2e56-f640-49cc-a4fe-fa4eb59b32de"
+            name="LogBase"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0a3d869c-e65b-4198-a17d-d086b124d36f"
+            name="Data"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

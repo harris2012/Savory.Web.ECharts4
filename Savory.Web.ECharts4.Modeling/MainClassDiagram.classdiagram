@@ -353,17 +353,11 @@
           <property Id="654b07fc-f7d8-49f8-860d-d2af8919578d" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a1ace315-eb4a-491f-ad9d-1c23f3d99d65" />
           </property>
-          <property Id="d9b4d0f2-b2a4-4a2b-8c9f-10d560a801d8" name="LogBase" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="a99671d7-8b85-4c0d-9d83-25b471043017" />
-          </property>
           <property Id="f2dd1946-d9f1-4d85-968a-ad869f0af43a" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="46a43474-fffb-4938-9f96-9154daf5eb03" />
           </property>
           <property Id="e8a28e16-06a3-4850-98bb-ec323716a53e" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4d690aa8-0e9b-4ded-9270-f8c40248b881" />
-          </property>
-          <property Id="bb386c3b-3fde-42d4-b68a-91db6b9fbbb9" name="AxisLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="557a19e1-3f53-4ba3-9a9c-55ad49fcb8fa" />
           </property>
           <property Id="0591757f-428c-413a-844b-d948f5cb8393" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="82bb398e-a8c8-45d5-8cbb-f3eb4007371c" />
@@ -373,9 +367,6 @@
           </property>
           <property Id="8753991c-85bc-4230-83a0-e667b8db31b3" name="AplitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4b60b68f-0aba-4466-bfad-5f131499d08f" />
-          </property>
-          <property Id="26faec64-aa16-4a06-9494-309b04c4d38d" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="fb2ed9de-780d-4af4-bfc3-7a738711fe4d" />
           </property>
           <property Id="031e76f5-a296-46eb-9a9c-1d5a3489b4d4" name="AxisPointer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="37d84c20-faaf-406a-b9f7-457eece22570" />
@@ -438,17 +429,11 @@
           <property Id="fbf74a83-5162-45f9-a563-b1aa9de1d5e0" name="MaxInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="56ee5d94-51f3-48cf-8132-ef9fc3f66840" />
           </property>
-          <property Id="f4b4248c-dc26-42c8-8830-0f888b4712bf" name="LogBase" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="542e917f-c0c3-4ab3-85e5-da262e95882b" />
-          </property>
           <property Id="5d2356d4-9e71-482e-bb58-700b7fc327d5" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="c9486463-13d4-4b5b-8f42-432a62c112e1" />
           </property>
           <property Id="4f3d75c6-f1f0-4dd3-a1a9-43fa0f80d03c" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="99963d9e-bc17-43c5-a85b-ca35d319a4b0" />
-          </property>
-          <property Id="30f2a823-ba2b-4e4f-a673-329193e234f3" name="AxisLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="acdd1402-1637-4798-a13d-a4d5379c4b7f" />
           </property>
           <property Id="4a503446-43c5-48f4-9241-017f59479f56" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4ccc2e47-96aa-4df3-ad20-9aeb731dfb14" />
@@ -458,9 +443,6 @@
           </property>
           <property Id="5bd8ecdf-fafd-49b8-9e1a-e994186985ee" name="AplitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="74ef8480-ff9e-4cd5-a95d-775050e9406e" />
-          </property>
-          <property Id="836a343f-d5e3-4a41-b7a0-ebe6d02c3f8b" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="aa37f0bf-63b6-4436-a074-03f204b96f55" />
           </property>
           <property Id="cd59e420-b0e9-4386-aa34-30d0541e35a2" name="AxisPointer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="70af1e66-5359-482a-a9ae-334a93e307d0" />
@@ -554,17 +536,11 @@
           <property Id="44733110-59f8-4116-8898-21b656a51cfb" name="MaxInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="70487d3a-ef64-4ecc-84d4-a87add888314" />
           </property>
-          <property Id="bdc95a93-fad6-4cc7-82f0-65ee4b499f9d" name="LogBase" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="2773e8a6-e8dd-4fa1-8c1d-29247fbe0b86" />
-          </property>
           <property Id="261e9282-ec3e-444f-ae67-7104582028c9" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ec0ff21a-ef0d-408f-ad7a-81b7225e93fb" />
           </property>
           <property Id="fb5e8852-c938-4217-b7a3-57c6a8ba17a4" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="f199e370-52a3-497f-a657-cb2ef853c131" />
-          </property>
-          <property Id="a331c1da-3ea5-492f-946b-bc164f84696a" name="AxisLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="9f4779cc-c0cf-4106-91f7-6a816c875a5d" />
           </property>
           <property Id="cbdf7675-d0bf-4e82-8055-a4b4b0ebf0de" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="25fa2aa3-fed5-4f99-a0a1-d475e0a4deae" />
@@ -574,9 +550,6 @@
           </property>
           <property Id="dd984482-4107-4aac-8df7-8701dd35ffd5" name="SplitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="c82f980e-00bc-4bc9-b929-62d70c985fa5" />
-          </property>
-          <property Id="8fd310db-2e7e-4fd2-a3e2-027efd4afb90" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="67e3e68e-69fb-4eda-8275-990973062a89" />
           </property>
           <property Id="fb81740b-6db5-4b52-a87e-5da70e4cc2cd" name="AxisPointer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="62376562-dded-4a73-838b-dbe536c4a9d6" />
@@ -636,17 +609,11 @@
           <property Id="c9e38b16-c38e-4a5e-b9f4-b279053fafde" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="3fd2fe86-ea39-4983-833d-1ec56d50c50e" />
           </property>
-          <property Id="d9d9dc80-6d16-4ad5-a4bc-aec51704c248" name="LogBase" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="3b35f2f3-2931-463a-91a2-9f107d5256de" />
-          </property>
           <property Id="9740e28a-935c-471f-93ee-1c15952fcf98" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="e03586b0-a908-4763-b845-a7e1e40e899a" />
           </property>
           <property Id="667d1fdc-f6fb-4e0c-af45-e04a2f68e8aa" name="triggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="d6ba6387-5e96-4849-be68-5fbe2a1a07a2" />
-          </property>
-          <property Id="eb85f7ac-e401-4a13-8fec-23de5eba980f" name="AxisLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="31d16f57-e318-4653-b9a3-348ed3f677d3" />
           </property>
           <property Id="87b0b57b-39b2-410e-b21c-c551c2ef9f07" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4639efc7-eccd-48af-a1e2-7359c1ad5460" />
@@ -656,9 +623,6 @@
           </property>
           <property Id="ee529686-90fb-4cc8-a08b-65c33aeaf7c9" name="SplitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="98ce67c5-4374-4f95-98c9-2859e8fb10eb" />
-          </property>
-          <property Id="651b73fd-b5ab-4b7c-859b-6d46ff1e72c0" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="3495b570-4ab8-49ed-977d-dfc9eddb121b" />
           </property>
           <property Id="dddd9827-7200-42b5-bda6-b375ff815637" name="AxisPointer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ebc6a798-e2e6-4219-9a7d-0bd5e6831e28" />
@@ -1135,23 +1099,14 @@
           <property Id="d084be8d-5be4-4889-9201-aa2b0544b304" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4b4bbda5-e6cd-480a-8e75-11849c773a6d" />
           </property>
-          <property Id="e5c8bf2d-2a89-4a3b-8ba3-26d509908919" name="LogBase" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="c13c098c-7be0-46e4-ac02-47e851268aef" />
-          </property>
           <property Id="5b61ba77-900e-4522-957a-bd8549cdd6f2" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="83f298c2-88f7-4977-942d-2cb39049448e" />
           </property>
           <property Id="c80540a3-0e27-4caa-809f-b11cbfaf40e6" name="triggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="274a7f4a-ce92-4cd3-993e-b5fa31a18547" />
           </property>
-          <property Id="87b345f5-2293-46bc-bf78-0d1ab04e9639" name="AxisLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="bb919833-e156-4145-a218-0b07d856e0c4" />
-          </property>
           <property Id="253509c4-3260-4241-a32e-fcd6532bd250" name="AxisTrick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ecdedc09-8ca5-4885-b852-c0bc2ef59c4f" />
-          </property>
-          <property Id="e47a5d3d-dd34-44b5-9294-289ba8171d14" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ea4ccacf-c179-444a-bf57-2cc22d9699d7" />
           </property>
         </ownedAttributesInternal>
       </class>
@@ -1238,17 +1193,11 @@
           <property Id="ebd25f73-b27d-45a3-8a7c-a78ebe73369f" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="5c72d4bd-4134-4d2b-a5c6-59ad347ea73e" />
           </property>
-          <property Id="a0723db6-d661-4000-b37a-85c35aa70269" name="LogBase" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4d51f768-6105-452b-9765-8928e76e6937" />
-          </property>
           <property Id="978fbf6d-8257-484e-8da9-0537e270e4c2" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="b5c5d7bb-4919-4662-b5f7-64ff03eb8bca" />
           </property>
           <property Id="5ab29783-b930-43f3-83a6-0dc5c9e05ea3" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="d09089ce-e3d5-48b8-99b7-4a6c4860d441" />
-          </property>
-          <property Id="b4b19816-6d0a-4697-84d5-84eb4e2eae76" name="AxisLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="7518b742-4c1b-4824-84d7-ccf6b56eac7c" />
           </property>
           <property Id="197e3c23-c388-49e1-bce3-242cc27b03e1" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="563c001c-74e2-4a3c-ad0e-4683620fbebf" />
@@ -1258,9 +1207,6 @@
           </property>
           <property Id="46fb8815-e923-41f0-b6cf-e23821d40f6b" name="SolitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="6d3ca3f3-390c-462e-b6f2-22f3830d5643" />
-          </property>
-          <property Id="a2dba9e2-96fc-4ade-8a1c-7682af4e7807" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="cdcfc0fc-e444-4236-abbc-ac892ccaaca2" />
           </property>
           <property Id="d210617b-0503-4f5d-b5d5-50be923d28b8" name="AxisPointer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4d615c98-d9cd-4fff-95d5-16e5b4a78102" />
@@ -1696,6 +1642,15 @@
         <ownedAttributesInternal>
           <property Id="8c436b8e-57ba-4e3f-96ee-b1987c1414aa" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="32df61c0-dc15-4ac3-b293-eebe98e0f598" />
+          </property>
+          <property Id="e4561025-ddc2-4cd7-a4ee-0b9ea2eec186" name="AxisLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="778f1f60-9a2b-49ba-aec7-399a7f1676c4" />
+          </property>
+          <property Id="e1e39a43-d7af-4fc0-81ae-31b7023a2639" name="LogBase" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="03de2e56-f640-49cc-a4fe-fa4eb59b32de" />
+          </property>
+          <property Id="87ee0587-b55f-4b35-9d8f-d83ee2f18934" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0a3d869c-e65b-4198-a17d-d086b124d36f" />
           </property>
         </ownedAttributesInternal>
       </class>
