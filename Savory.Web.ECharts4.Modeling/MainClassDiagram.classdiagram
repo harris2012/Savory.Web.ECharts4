@@ -25,12 +25,6 @@
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
-          <property Id="bcb95d60-b2bb-4ad1-bba4-7a6f54702f2d" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="1fd38a9b-0589-460b-8bf1-c6799038a4b3" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="5ed473cb-5c24-4340-a32f-fe4a81b8082f" LastKnownName="Boolean" />
-            </type_NamedElement>
-          </property>
           <property Id="3a216271-73e5-4a5e-9160-e45c356ef909" name="Text" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="3665e492-2272-440f-8745-e5dea37b2643" />
             <type_NamedElement>
@@ -112,9 +106,6 @@
         <ownedAttributesInternal>
           <property Id="dbe2bd4e-db5b-4108-a260-430998b94597" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="c137f228-e292-479d-94fb-cc3fb6a9fa69" />
-          </property>
-          <property Id="f3a59701-c347-4991-b9e7-4f5a4fdd68ae" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="36183769-2e14-40ee-8d89-1862d514fe55" />
           </property>
           <property Id="c4230d7c-db35-439e-9594-247976d140d1" name="ZLevel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="487b8886-1aff-4851-9026-9d423c82f6f0" />
@@ -254,11 +245,6 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <packageHasNamedElement>
-      <referencedType Id="5ed473cb-5c24-4340-a32f-fe4a81b8082f" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
-        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="afcf8b85-7572-471d-b6a2-f45c6f4435b6" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
         <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
       </referencedType>
@@ -266,30 +252,15 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="4296a24f-b1ad-49e7-84d0-09c984cda46c" name="Grid" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="1f012215-1cf3-4f9f-8827-3d1cd3c91758" />
+        <generalsInternal>
+          <generalization Id="b4309718-c2aa-448f-a04e-3af1c42e0b59" isSubstitutable="false">
+            <classMoniker Id="3ae4d6b9-ca13-42dd-b47e-6f0c8b5bab2d" LastKnownName="LayoutSizeable" />
+            <elementDefinition Id="73750566-16a4-480e-b761-ec9155d6b750" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
-          <property Id="923b658d-6f0d-46b9-9614-5201c7f62d5f" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="307dbfb5-47f3-4a09-be02-887114942ae5" />
-          </property>
           <property Id="11527c31-2833-491a-8b33-61d3cf08d919" name="ZLevel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a6d1f3d5-0b43-4096-82f9-a0215a63e39e" />
-          </property>
-          <property Id="40a84afb-5bc3-44c3-a6de-217b8ebdb808" name="Left" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="03ce7334-8155-441c-8521-a5a0c126f994" />
-          </property>
-          <property Id="89093a98-d259-4156-891d-5df958203326" name="Top" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="69fa6790-e700-47a7-a8b0-adb739bed315" />
-          </property>
-          <property Id="31a2fcf6-79a2-4226-b9d8-eaef4d6cb647" name="Right" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="5bc6fc54-d69d-4198-8887-6c5e8a48781f" />
-          </property>
-          <property Id="e2ce5b02-6ef4-4d1b-bc3c-fc918cb8f33f" name="Bottom" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="07e52721-5223-495c-af70-f64a287f2b08" />
-          </property>
-          <property Id="559e6511-6801-4c0a-80d8-a651f42c5094" name="Width" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="263584b8-cc1d-4948-b9c3-e2747ecfa2df" />
-          </property>
-          <property Id="bb87f2e2-db48-4f98-846f-d39d9ad8bbbb" name="Height" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="95eba5a1-38b8-4f58-bcb0-9817249a13a9" />
           </property>
           <property Id="711e79ab-7a64-49b9-9d6a-bc9928ef3ff1" name="ContainLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="1f03d4f9-7970-4097-a88a-8cceb15e76c6" />
@@ -883,10 +854,13 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="5ca46b2d-15e4-430c-beea-bd3d5fa686a4" name="Toolbox" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="c6c1a10f-1f6a-40da-834b-111736608fa5" />
+        <generalsInternal>
+          <generalization Id="0e02245c-a68f-4a25-885e-e5daeeea65f1" isSubstitutable="false">
+            <classMoniker Id="3ae4d6b9-ca13-42dd-b47e-6f0c8b5bab2d" LastKnownName="LayoutSizeable" />
+            <elementDefinition Id="93996933-32a5-4a65-a437-1a3a92450eec" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
-          <property Id="54c5923d-4846-4925-a3a7-61fc2b3f3c84" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="e7b66215-0ff2-40ab-8fdc-aa474b766813" />
-          </property>
           <property Id="cc87c9ed-d706-4f7c-9049-bb9bc075040a" name="Orient" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="26e126a1-34a5-4566-822f-f7a1b432fa89" />
           </property>
@@ -913,27 +887,6 @@
           </property>
           <property Id="cf4183ca-adcd-43f7-8cbe-4a5b269787f6" name="Z" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="8f1bffd2-ee06-437e-bc8c-da266a915133" />
-          </property>
-          <property Id="f0bb083b-fb39-4ea6-935d-eb0d528221cb" name="Left" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="483c4e28-57b8-4436-a4c2-b7ae9085f859" />
-          </property>
-          <property Id="fd948f2e-eae9-4629-80eb-df6c547aa40b" name="Top" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="a6397b32-9588-4f18-8a0d-ab7070d7b724" />
-          </property>
-          <property Id="f3c031b4-c98c-429a-9b65-a2380fde4674" name="Left" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="32a6379e-9541-4171-8f31-e0116640b0cb" />
-          </property>
-          <property Id="fb90e103-cfbd-4b4d-8662-732819d18578" name="Right" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="0dd243af-08f6-44a9-a6e6-7ee1a3e1c6fa" />
-          </property>
-          <property Id="b322a524-26cd-43e9-a5d2-316f96ca7d96" name="Bottom" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="09322345-243f-4c9e-8a2e-71fe0674b876" />
-          </property>
-          <property Id="c634cb5d-0478-4c3b-a4a5-fc242704dd99" name="Width" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="8bafadf0-5d2b-4f5f-921d-b61f8209f332" />
-          </property>
-          <property Id="b8cdee49-c9a2-4d7f-bff0-2d56bd8538d2" name="Height" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ba85a207-6561-49ec-be72-56540dc9fc22" />
           </property>
         </ownedAttributesInternal>
       </class>
@@ -996,10 +949,13 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="0fe4cd0d-d73d-4655-b30d-49d0755082c9" name="Geo" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="1942b6c6-020d-46f8-91a9-f870710578d6" />
+        <generalsInternal>
+          <generalization Id="7357feb4-50c2-4ee0-96b9-2eeff77bfde6" isSubstitutable="false">
+            <classMoniker Id="69a04706-141b-4b88-9d8d-51533f1d2b19" LastKnownName="Layoutable" />
+            <elementDefinition Id="62c3510a-7711-4022-bbe4-627ec9e070a5" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
-          <property Id="e1d92aae-16b8-4c2d-8166-e92c3d3b435d" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ac177225-c582-42ee-91cb-86762007fb0b" />
-          </property>
           <property Id="d198a6ee-5c81-42cf-b731-b14b753571d2" name="Map" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="30d5b74d-3bf4-4da0-a447-63c0b65fcb87" />
           </property>
@@ -1035,18 +991,6 @@
           </property>
           <property Id="27da3bbd-c5c0-4119-bcd1-8a9c05bc7ed0" name="Z" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="0e5a4141-66c7-4ed8-9802-09b22584902c" />
-          </property>
-          <property Id="1a810d76-43e2-40e9-a4b8-d98a810d1017" name="Left" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="b7ad39b8-2497-47d4-89a6-1e1f7c4f13bd" />
-          </property>
-          <property Id="49ea196b-78f0-41fd-ac21-eed98b8aad98" name="Top" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="f600802d-f68a-427a-9d72-d6e0323b32dc" />
-          </property>
-          <property Id="1444cb60-1338-4b28-bc8b-21a068733e77" name="Right" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="9ae91d44-a829-447f-8f09-f9ea41e2e0f6" />
-          </property>
-          <property Id="6bc784bb-8595-48e6-a3e6-a80073058fbf" name="Bottom" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="cfbf67e0-3434-49df-b031-7fdeedc72faf" />
           </property>
           <property Id="823f4882-07ec-43a9-9304-4a0890ad848b" name="LayoutCenter" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="93f87853-2101-4d6f-8177-e1f135ca0e43" />
