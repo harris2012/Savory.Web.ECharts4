@@ -359,9 +359,6 @@
           <property Id="e8a28e16-06a3-4850-98bb-ec323716a53e" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4d690aa8-0e9b-4ded-9270-f8c40248b881" />
           </property>
-          <property Id="0591757f-428c-413a-844b-d948f5cb8393" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="82bb398e-a8c8-45d5-8cbb-f3eb4007371c" />
-          </property>
           <property Id="2e7adef4-fa22-453d-865b-2e4866945610" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ce3d141d-083f-4b25-8fd8-74f44c317c46" />
           </property>
@@ -434,9 +431,6 @@
           </property>
           <property Id="4f3d75c6-f1f0-4dd3-a1a9-43fa0f80d03c" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="99963d9e-bc17-43c5-a85b-ca35d319a4b0" />
-          </property>
-          <property Id="4a503446-43c5-48f4-9241-017f59479f56" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4ccc2e47-96aa-4df3-ad20-9aeb731dfb14" />
           </property>
           <property Id="7a17744e-861e-41eb-8fbf-40eb5fe379ec" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="67ceb71d-1153-4520-97db-ab1331fe7a92" />
@@ -542,9 +536,6 @@
           <property Id="fb5e8852-c938-4217-b7a3-57c6a8ba17a4" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="f199e370-52a3-497f-a657-cb2ef853c131" />
           </property>
-          <property Id="cbdf7675-d0bf-4e82-8055-a4b4b0ebf0de" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="25fa2aa3-fed5-4f99-a0a1-d475e0a4deae" />
-          </property>
           <property Id="f93b023a-20d8-48c2-85e3-11963b6d4960" name="AplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="011984e8-9bb9-48ef-b4a6-8e97171f02a7" />
           </property>
@@ -614,9 +605,6 @@
           </property>
           <property Id="667d1fdc-f6fb-4e0c-af45-e04a2f68e8aa" name="triggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="d6ba6387-5e96-4849-be68-5fbe2a1a07a2" />
-          </property>
-          <property Id="87b0b57b-39b2-410e-b21c-c551c2ef9f07" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4639efc7-eccd-48af-a1e2-7359c1ad5460" />
           </property>
           <property Id="ec56a9b5-e152-49d8-b763-22f4d728cfac" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="2bdb01b2-a07b-4ea7-b105-689ea37117e0" />
@@ -1105,9 +1093,6 @@
           <property Id="c80540a3-0e27-4caa-809f-b11cbfaf40e6" name="triggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="274a7f4a-ce92-4cd3-993e-b5fa31a18547" />
           </property>
-          <property Id="253509c4-3260-4241-a32e-fcd6532bd250" name="AxisTrick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ecdedc09-8ca5-4885-b852-c0bc2ef59c4f" />
-          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -1198,9 +1183,6 @@
           </property>
           <property Id="5ab29783-b930-43f3-83a6-0dc5c9e05ea3" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="d09089ce-e3d5-48b8-99b7-4a6c4860d441" />
-          </property>
-          <property Id="197e3c23-c388-49e1-bce3-242cc27b03e1" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="563c001c-74e2-4a3c-ad0e-4683620fbebf" />
           </property>
           <property Id="e7bd9e7d-5b31-4eac-8ad3-5a197a17950f" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="88c7e10e-f36b-4100-9fa6-96e8ad451d44" />
@@ -1651,6 +1633,9 @@
           </property>
           <property Id="87ee0587-b55f-4b35-9d8f-d83ee2f18934" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="0a3d869c-e65b-4198-a17d-d086b124d36f" />
+          </property>
+          <property Id="8972e248-7127-4ffc-9157-5b90c12fb1a0" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="51632b49-dc05-4199-a134-410f86ea4501" />
           </property>
         </ownedAttributesInternal>
       </class>
