@@ -239,6 +239,7 @@
         <elementDefinition Id="df444b37-4d92-4cdd-b23c-caf075478035" />
         <ownedAttributesInternal>
           <property Id="b8ee1532-8d05-4c13-9262-58cbcbb204f9" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <description>是否在界面上显示</description>
             <elementDefinition Id="a2da78ee-0840-429b-a1e7-d68e615c3ce2" />
           </property>
         </ownedAttributesInternal>

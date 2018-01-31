@@ -759,7 +759,9 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <description>是否在界面上显示</description>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
