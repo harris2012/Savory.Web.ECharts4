@@ -27,11 +27,11 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="58c2058a-3127-44b7-ae16-7b1ac4c248b1"
+            Id="b847a185-e8bd-47bb-b756-be46a16b45c4"
             isSubstitutable="false">
             <classMoniker
-              Id="df444b37-4d92-4cdd-b23c-caf075478035"
-              LastKnownName="View"
+              Id="6ae01bbe-7626-48f2-80de-1de090b0a7c5"
+              LastKnownName="LayoutSizeable"
               LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
           </generalization>
         </generalsInternal>
@@ -196,50 +196,6 @@
           <property
             Id="a6be8462-2fd3-4be0-91fb-349b6598de13"
             name="Z"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="8992e249-16af-4957-af4c-149a05aa637b"
-            name="Left"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="b4f6e623-9e0f-42a8-8379-e35318669bf5"
-            name="Top"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="5a65ba41-63b9-4925-8341-f55f7a909dbd"
-            name="Right"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="2c62ac0d-0d48-4033-a226-aa97354ae5c4"
-            name="Bottom"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -851,7 +807,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="d28b92ba-6193-4704-95f2-1ed2c51f78f2"
+                LastKnownName="Title"
+                LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+            </type_NamedElement>
+          </property>
           <property
             Id="1bf7ac20-6445-44c7-af08-b332a36fa1a9"
             name="Legend"
@@ -862,7 +825,14 @@
             isDerived="false"
             isDerivedUnion="false"
             aggregation="None"
-            isComposite="false" />
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="e9676d9b-fa2d-40ef-9d86-4b95b466abfb"
+                LastKnownName="Legend"
+                LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -872,7 +842,21 @@
         name="View"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="a2da78ee-0840-429b-a1e7-d68e615c3ce2"
+            name="Show"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -5423,6 +5407,230 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="d62e5f46-38eb-4de6-9f2f-cbf07772611f"
+        name="lend" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b01b611d-be7a-4293-b309-bf0a0ea6d5c6"
+        name="Sizeable"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <description>具有Width, Height属性</description>
+        <generalsInternal>
+          <generalization
+            Id="59e6b877-e505-428a-89ad-9174a909137c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="df444b37-4d92-4cdd-b23c-caf075478035"
+              LastKnownName="View"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4ed89807-7b68-45a7-adb9-432a8c63077d"
+            name="Width"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="24cc65da-c2e2-435d-979d-b2f6fe42bcf4"
+            name="Height"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d7240ac4-965e-4207-bf08-49298eebe401"
+        name="Layoutable"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <description>具有Left Right Top Bottom</description>
+        <generalsInternal>
+          <generalization
+            Id="f7f020b1-f9a8-4882-98f8-0ae2b99aabd3"
+            isSubstitutable="false">
+            <classMoniker
+              Id="df444b37-4d92-4cdd-b23c-caf075478035"
+              LastKnownName="View"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="6f028a9c-b41f-415d-89d1-04205492a64b"
+            name="Left"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="2293bb28-42fd-4e96-bee5-c2018b55755c"
+            name="Right"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="c46169fd-362d-4f10-902c-a03bca688ea3"
+            name="Top"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="c4cbbc70-8f56-499b-ac5b-f611bdadbf92"
+            name="Bottom"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="617b6462-7db9-4d38-8ec1-2356c0588182"
+        name="View"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="98c38eef-1b8c-4433-978c-acf8b770acf5"
+            name="Show"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6ae01bbe-7626-48f2-80de-1de090b0a7c5"
+        name="LayoutSizeable"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="cdde02bf-a06b-4a7a-92e8-4d9f17a430d6"
+            isSubstitutable="false">
+            <classMoniker
+              Id="df444b37-4d92-4cdd-b23c-caf075478035"
+              LastKnownName="View"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="80d28a4e-c27a-451b-a0a5-ed6765f12739"
+            name="Bottom"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="013661a8-91c5-4000-811b-324f0633d919"
+            name="Left"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="436ca56b-a5a3-4e0e-83ba-eababd688bfb"
+            name="Right"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a236d224-3d17-49b5-af5c-11ee72a979ff"
+            name="Top"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="2ce137e9-b48e-49bc-ac2a-4170953c37e3"
+            name="Height"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="48bd75db-7354-430c-acfa-074f834801a0"
+            name="Width"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
