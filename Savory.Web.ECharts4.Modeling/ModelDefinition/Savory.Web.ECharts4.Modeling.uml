@@ -901,6 +901,16 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="e1a0b565-a4e6-4908-be6f-a2859c5fd963"
+            isSubstitutable="false">
+            <classMoniker
+              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+              LastKnownName="Axis"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="a697a40a-df09-4c19-9489-d79cc091f997"
@@ -1145,17 +1155,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="e0595aa3-98af-4c10-9f8b-546907d71d3c"
-            name="AxisLabel"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="ce3d141d-083f-4b25-8fd8-74f44c317c46"
             name="SplitLine"
             isLeaf="false"
@@ -1231,6 +1230,16 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="1c1ffcbf-0e7e-48a7-bd27-310540e007c7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+              LastKnownName="Axis"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="0065e1a1-4ed6-4810-b8c6-b823fcb8d17b"
@@ -1431,17 +1440,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="f88d9428-14a0-41a7-b2d6-87d13daa3eae"
-            name="AxisLabel"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="67ceb71d-1153-4520-97db-ab1331fe7a92"
             name="SplitLine"
             isLeaf="false"
@@ -1583,6 +1581,16 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="f76a705c-faae-40c0-9ed6-ffe34f4a86de"
+            isSubstitutable="false">
+            <classMoniker
+              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+              LastKnownName="Axis"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="000919d4-993a-4cc5-ab54-c824c43c324d"
@@ -1816,17 +1824,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="9c7e7154-fcb2-47a7-8bfd-2a4d7930fbd8"
-            name="AxisLabel"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="011984e8-9bb9-48ef-b4a6-8e97171f02a7"
             name="AplitLine"
             isLeaf="false"
@@ -1902,6 +1899,16 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="ad2a81c8-b99a-40dc-8cef-e872331c43ca"
+            isSubstitutable="false">
+            <classMoniker
+              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+              LastKnownName="Axis"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="e4a54045-6ac9-4b80-824b-d8d63bf4ce52"
@@ -2082,17 +2089,6 @@
           <property
             Id="4639efc7-eccd-48af-a1e2-7359c1ad5460"
             name="AxisTick"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="4dc89877-10de-4d7c-8a16-446ab83aa2fc"
-            name="AxisLabel"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -3473,6 +3469,16 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="7c74c07e-d6be-4158-b117-66aa7eab81d5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+              LastKnownName="Axis"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="ed64918a-33b0-4041-99a0-8fdb4512fdbb"
@@ -3739,17 +3745,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="f9938d06-62be-4a91-b8ce-147b3401b25f"
-            name="AxisLabel"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="ea4ccacf-c179-444a-bf57-2cc22d9699d7"
             name="Data"
             isLeaf="false"
@@ -3770,6 +3765,16 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="c1a64aaf-e895-4152-a976-fd586dbae6ab"
+            isSubstitutable="false">
+            <classMoniker
+              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+              LastKnownName="Axis"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="27c1b202-dc11-457a-a879-06c4c2cf9cae"
@@ -4082,17 +4087,6 @@
           <property
             Id="563c001c-74e2-4a3c-ad0e-4683620fbebf"
             name="AxisTick"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="8557c20f-0fea-4e38-8bc4-9faf22ec04f3"
-            name="AxisLabel"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5336,6 +5330,28 @@
           <property
             Id="48bd75db-7354-430c-acfa-074f834801a0"
             name="Width"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+        name="Axis"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="32df61c0-dc15-4ac3-b293-eebe98e0f598"
+            name="AxisLabel"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

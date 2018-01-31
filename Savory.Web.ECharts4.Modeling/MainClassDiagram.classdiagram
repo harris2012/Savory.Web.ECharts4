@@ -295,6 +295,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="46695565-09cb-450a-bc97-4341930bc35e" name="XAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="f7e90e29-3dd4-4ba2-9afc-4cddbb574a56" />
+        <generalsInternal>
+          <generalization Id="bf790406-b136-4271-896d-b2ccfa1e3679" isSubstitutable="false">
+            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
+            <elementDefinition Id="e1a0b565-a4e6-4908-be6f-a2859c5fd963" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property Id="59b6cb42-026d-4280-b4ea-2f724a923743" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a697a40a-df09-4c19-9489-d79cc091f997" />
@@ -362,9 +368,6 @@
           <property Id="0591757f-428c-413a-844b-d948f5cb8393" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="82bb398e-a8c8-45d5-8cbb-f3eb4007371c" />
           </property>
-          <property Id="6457679e-b65f-4eeb-a188-8136ab4ac96c" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="e0595aa3-98af-4c10-9f8b-546907d71d3c" />
-          </property>
           <property Id="2e7adef4-fa22-453d-865b-2e4866945610" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ce3d141d-083f-4b25-8fd8-74f44c317c46" />
           </property>
@@ -389,6 +392,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="dbdc2347-71be-415c-ab6a-a1a0a53245d7" name="YAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="a1dfdd45-4692-43df-8040-863a92d9af1d" />
+        <generalsInternal>
+          <generalization Id="10493925-7424-4eb3-83c1-fdaadc812ed9" isSubstitutable="false">
+            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
+            <elementDefinition Id="1c1ffcbf-0e7e-48a7-bd27-310540e007c7" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property Id="dfa8eb33-6488-47e3-aa3f-6c0ad273a689" name="Show" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="0065e1a1-4ed6-4810-b8c6-b823fcb8d17b" />
@@ -444,9 +453,6 @@
           <property Id="4a503446-43c5-48f4-9241-017f59479f56" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4ccc2e47-96aa-4df3-ad20-9aeb731dfb14" />
           </property>
-          <property Id="feb71aa8-02ef-4103-88ea-774ec977da82" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="f88d9428-14a0-41a7-b2d6-87d13daa3eae" />
-          </property>
           <property Id="7a17744e-861e-41eb-8fbf-40eb5fe379ec" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="67ceb71d-1153-4520-97db-ab1331fe7a92" />
           </property>
@@ -493,6 +499,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="f80a1cfb-761e-4935-aa29-8d35ab8af2ae" name="RadiusAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="796cd463-17b2-4670-bb4c-53fb32448363" />
+        <generalsInternal>
+          <generalization Id="5e7f1604-c900-41bf-82d3-a2f9d4dc49a7" isSubstitutable="false">
+            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
+            <elementDefinition Id="f76a705c-faae-40c0-9ed6-ffe34f4a86de" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property Id="8ca29034-459b-48b7-b486-7d326e9581ad" name="PolarIndex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="000919d4-993a-4cc5-ab54-c824c43c324d" />
@@ -557,9 +569,6 @@
           <property Id="cbdf7675-d0bf-4e82-8055-a4b4b0ebf0de" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="25fa2aa3-fed5-4f99-a0a1-d475e0a4deae" />
           </property>
-          <property Id="b4c5050e-6ae7-4f33-a694-6477b34c6090" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="9c7e7154-fcb2-47a7-8bfd-2a4d7930fbd8" />
-          </property>
           <property Id="f93b023a-20d8-48c2-85e3-11963b6d4960" name="AplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="011984e8-9bb9-48ef-b4a6-8e97171f02a7" />
           </property>
@@ -584,6 +593,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="169f7f84-9b73-4a42-b8d6-095c61b0e0fb" name="AngleAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="62538b40-29a1-4f88-a53b-1550cbc1edb8" />
+        <generalsInternal>
+          <generalization Id="c2efc1c0-eaaa-4aad-bad4-aed2dcfcab22" isSubstitutable="false">
+            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
+            <elementDefinition Id="ad2a81c8-b99a-40dc-8cef-e872331c43ca" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property Id="610ad281-f946-4e7d-9738-7c978d337313" name="PolarIndex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="e4a54045-6ac9-4b80-824b-d8d63bf4ce52" />
@@ -635,9 +650,6 @@
           </property>
           <property Id="87b0b57b-39b2-410e-b21c-c551c2ef9f07" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4639efc7-eccd-48af-a1e2-7359c1ad5460" />
-          </property>
-          <property Id="53c56642-9272-4066-beea-e2e3debdb778" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4dc89877-10de-4d7c-8a16-446ab83aa2fc" />
           </property>
           <property Id="ec56a9b5-e152-49d8-b763-22f4d728cfac" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="2bdb01b2-a07b-4ea7-b105-689ea37117e0" />
@@ -1059,6 +1071,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="b3da9d01-20c8-499f-857e-5d2c3e9f7185" name="ParallelAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="069fb16f-a58c-4987-ac67-9f814bd96f07" />
+        <generalsInternal>
+          <generalization Id="dd833a42-b06e-4ca1-93bd-926e3489ff17" isSubstitutable="false">
+            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
+            <elementDefinition Id="7c74c07e-d6be-4158-b117-66aa7eab81d5" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property Id="d4c4b635-b7f0-4f1c-8c75-331292affd23" name="Dim" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ed64918a-33b0-4041-99a0-8fdb4512fdbb" />
@@ -1132,9 +1150,6 @@
           <property Id="253509c4-3260-4241-a32e-fcd6532bd250" name="AxisTrick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ecdedc09-8ca5-4885-b852-c0bc2ef59c4f" />
           </property>
-          <property Id="93804830-b654-4d1a-a0c5-142f4b7452e6" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="f9938d06-62be-4a91-b8ce-147b3401b25f" />
-          </property>
           <property Id="e47a5d3d-dd34-44b5-9294-289ba8171d14" name="Data" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="ea4ccacf-c179-444a-bf57-2cc22d9699d7" />
           </property>
@@ -1144,6 +1159,12 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="1a688ec4-4914-4655-8975-760ad58e8861" name="SingleAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="f98bec6e-ff73-4fa5-b178-370dbd41cda5" />
+        <generalsInternal>
+          <generalization Id="679a1ea2-27e8-42ce-977b-5a1e723c93c2" isSubstitutable="false">
+            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
+            <elementDefinition Id="c1a64aaf-e895-4152-a976-fd586dbae6ab" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property Id="9c5eba20-cb24-4742-bb94-e0eacd19039c" name="ZLevel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="27c1b202-dc11-457a-a879-06c4c2cf9cae" />
@@ -1231,9 +1252,6 @@
           </property>
           <property Id="197e3c23-c388-49e1-bce3-242cc27b03e1" name="AxisTick" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="563c001c-74e2-4a3c-ad0e-4683620fbebf" />
-          </property>
-          <property Id="e15b15e6-c723-4517-90ac-b8a1f34c0e18" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="8557c20f-0fea-4e38-8bc4-9faf22ec04f3" />
           </property>
           <property Id="e7bd9e7d-5b31-4eac-8ad3-5a197a17950f" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="88c7e10e-f36b-4100-9fa6-96e8ad451d44" />
@@ -1668,6 +1686,16 @@
           </property>
           <property Id="095082dd-df9e-45b6-938c-b13bda70b361" name="Width" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="48bd75db-7354-430c-acfa-074f834801a0" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" name="Axis" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="666f9adf-4637-480d-9a9b-ed7adf956f61" />
+        <ownedAttributesInternal>
+          <property Id="8c436b8e-57ba-4e3f-96ee-b1987c1414aa" name="AxisLabel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="32df61c0-dc15-4ac3-b293-eebe98e0f598" />
           </property>
         </ownedAttributesInternal>
       </class>
