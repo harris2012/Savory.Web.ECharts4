@@ -18,6 +18,41 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="880a50d5-ac29-4327-b50f-91e06d791b9d" name="Title" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="d28b92ba-6193-4704-95f2-1ed2c51f78f2" />
+        <generalsInternal>
+          <generalization Id="76d0e83c-f073-4b03-a3e4-f83d170d4748" isSubstitutable="false">
+            <classMoniker Id="9e7bf449-b6fa-4e73-a9a4-5f1401f89a69" LastKnownName="View" />
+            <elementDefinition Id="58c2058a-3127-44b7-ae16-7b1ac4c248b1" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b8b7b05e-2d28-4b67-951e-90c1bee8f6c4" name="Legend" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e9676d9b-fa2d-40ef-9d86-4b95b466abfb" />
+        <generalsInternal>
+          <generalization Id="2acf961c-3c8d-46c0-9251-0da0cec886ff" isSubstitutable="false">
+            <classMoniker Id="9e7bf449-b6fa-4e73-a9a4-5f1401f89a69" LastKnownName="View" />
+            <elementDefinition Id="9aac2084-d632-4a11-b74a-e54abad34e4f" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5016b49c-f5d0-4d76-bb40-c8fc0c8a468c" name="UEditorOption" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="512c3f76-7df7-4f2f-9386-4c86f35c747b" />
+        <ownedAttributesInternal>
+          <property Id="a704e561-0636-4a6e-98a0-379c6d1a6fe7" name="Title" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cc7efc21-f44a-41ef-9126-715e337abac4" />
+          </property>
+          <property Id="865ac282-223f-40fe-9227-5c0f31dd19a6" name="Legend" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1bf7ac20-6445-44c7-af08-b332a36fa1a9" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9e7bf449-b6fa-4e73-a9a4-5f1401f89a69" name="View" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="df444b37-4d92-4cdd-b23c-caf075478035" />
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>
