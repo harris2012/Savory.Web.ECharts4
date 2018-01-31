@@ -304,11 +304,11 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="9aac2084-d632-4a11-b74a-e54abad34e4f"
+            Id="d336f34b-e532-429e-abc6-31a6c27841e1"
             isSubstitutable="false">
             <classMoniker
-              Id="df444b37-4d92-4cdd-b23c-caf075478035"
-              LastKnownName="View"
+              Id="6ae01bbe-7626-48f2-80de-1de090b0a7c5"
+              LastKnownName="LayoutSizeable"
               LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
           </generalization>
         </generalsInternal>
@@ -349,72 +349,6 @@
           <property
             Id="14390b61-d9f3-4504-b21c-6f224bdc34e3"
             name="Z"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="4e5e8c79-ffbd-48c9-aebc-5ca219d8c0ba"
-            name="Left"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="76b5240d-b2d7-4f58-ad46-5776aa82e1f1"
-            name="Top"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="4bd8ff84-1507-479a-8852-2fe7e1fe6c62"
-            name="Right"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="47843347-2406-4c72-8f6a-970d898b34e6"
-            name="Bottom"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="77e91161-fd53-4cf8-9b3b-f9e7860c9e78"
-            name="Width"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="5d457276-06b2-48f5-872e-8f44680d1880"
-            name="Height"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
