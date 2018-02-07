@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Savory.Web.ECharts4;
+using Savory.Web.ECharts4.Convertor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace Savory.Web.ECharts4.DemoProject
 
             EChartsOption option = new EChartsOption();
             option.TitleList = new List<Options.Title>();
-            option.TitleList.Add(new Options.Title { Text = "MainTitle", SubText = "link", Left = "center" });
+            option.TitleList.Add(new Options.Title { Text = "MainTitle", SubText = "link", Left = LeftEnum.Center });
             option.Legend = new Options.Legend { Orient = "vertical", X = "left" };
             option.Toolbox = new Options.Toolbox
             {
@@ -32,7 +33,10 @@ namespace Savory.Web.ECharts4.DemoProject
             option.Tooltip = new Options.Tooltip { Formatter = "{a} <br/>{b} : {c} ({d}%)", Trigger = "item" };
             option.Calculable = true;
 
-            var content = JsonConvert.SerializeObject(option, Formatting.Indented, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore });
+            var settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
+            settings.Converters.Add(new LeftConvertor());
+
+            var content = JsonConvert.SerializeObject(option, Formatting.Indented, settings);
 
             context.Response.Write(content);
         }

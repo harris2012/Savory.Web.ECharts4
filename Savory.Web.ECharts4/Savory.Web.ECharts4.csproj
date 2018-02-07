@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Convertor\LeftConvertor.cs" />
     <Compile Include="EChartsOption.cs" />
+    <Compile Include="Left.cs" />
+    <Compile Include="LeftEnum.cs" />
     <Compile Include="Options\Feature.cs" />
     <Compile Include="Options\Layoutable.cs" />
     <Compile Include="Options\LayoutSizeable.cs" />
