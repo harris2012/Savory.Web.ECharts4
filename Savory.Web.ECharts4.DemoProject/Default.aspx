@@ -32,7 +32,7 @@
 
     <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdn.bootcss.com/echarts/2.2.7/echarts-all.js"></script>
+    <script src="https://cdn.bootcss.com/echarts/4.0.2/echarts.min.js"></script>
     <script>
 
         $(function () {
@@ -53,6 +53,9 @@
                             itemStyle: { normal: { label: { show: false }, labelLine: { show: false } }, emphasis: { label: { show: true, position: 'center', textStyle: { fontSize: '30', fontWeight: 'bold' } } } },
                             data: seriesData
                         }];
+
+                        console.log(response);
+                        console.log(JSON.stringify(response, null, 2));
 
                         myChart.setOption(response);
                     })

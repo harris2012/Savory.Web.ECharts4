@@ -17,8 +17,8 @@ namespace Savory.Web.ECharts4.DemoProject
             context.Response.ContentType = "application/json";
 
             EChartsOption option = new EChartsOption();
-            //option.TitleList = new List<Options.Title>();
-            //option.TitleList.Add(new Options.Title { Link = "link" });
+            option.TitleList = new List<Options.Title>();
+            option.TitleList.Add(new Options.Title { Text = "MainTitle", SubText = "link" });
             option.Legend = new Options.Legend { Orient = "vertical", X = "left" };
             option.Toolbox = new Options.Toolbox
             {
