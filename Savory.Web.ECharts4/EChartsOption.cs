@@ -24,5 +24,8 @@ namespace Savory.Web.ECharts4
 
         [JsonProperty("series")]
         public List<Serie> SerieList { get; set; }
+
+        [JsonProperty("tooltip")]
+        public Tooltip Tooltip { get; set; }
     }
 }
