@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="attribute\AsOneAttribute.cs" />
+    <Compile Include="attribute\EChartsPropertyAttribute.cs" />
     <Compile Include="EChartsConvert.cs" />
     <Compile Include="EChartsOption.cs" />
+    <Compile Include="EChartsSerializer.cs" />
+    <Compile Include="Options\Title.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

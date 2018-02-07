@@ -10,7 +10,9 @@ namespace Savory.Web.ECharts4
     {
         public static string Serialize(EChartsOption option)
         {
-            return "ok";
+            EChartsSerializer serializer = new EChartsSerializer();
+
+            return serializer.Serialize(option);
         }
     }
 }
