@@ -46,10 +46,13 @@
   <ItemGroup>
     <Compile Include="EChartsOption.cs" />
     <Compile Include="Options\Feature.cs" />
+    <Compile Include="Options\Layoutable.cs" />
+    <Compile Include="Options\LayoutSizeable.cs" />
     <Compile Include="Options\Legend.cs" />
     <Compile Include="Options\Title.cs" />
     <Compile Include="Options\Toolbox.cs" />
     <Compile Include="Options\Tooltip.cs" />
+    <Compile Include="Options\View.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

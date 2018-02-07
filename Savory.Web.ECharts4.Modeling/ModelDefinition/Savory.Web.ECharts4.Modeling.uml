@@ -27,11 +27,11 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="b847a185-e8bd-47bb-b756-be46a16b45c4"
+            Id="45033551-1a9d-4f25-adda-1d4a5be9c0a7"
             isSubstitutable="false">
             <classMoniker
-              Id="6ae01bbe-7626-48f2-80de-1de090b0a7c5"
-              LastKnownName="LayoutSizeable"
+              Id="d7240ac4-965e-4207-bf08-49298eebe401"
+              LastKnownName="Layoutable"
               LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
           </generalization>
         </generalsInternal>

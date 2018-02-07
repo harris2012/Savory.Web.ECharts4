@@ -1,27 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="21f858a4-5714-42d4-803d-9fb7cc3590bf" name="MainClassDiagram" linkedPackageId="9af3ff89-3a82-428c-8e53-d8e58f7f1d3d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="38ea658d-d817-4d27-b968-171a977978f4">
-      <profileInstance Id="1c81f37c-3fba-425a-b9d2-4319f48fe176" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="091cf0aa-999d-4671-ae9f-dd792e8a25aa">
-      <profileInstance Id="385074fd-3d26-4859-83ca-55c3f3421b75" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="880a50d5-ac29-4327-b50f-91e06d791b9d" name="Title" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="d28b92ba-6193-4704-95f2-1ed2c51f78f2" />
         <generalsInternal>
-          <generalization Id="8ee3b661-c30b-44b9-9515-9e81c1a49fb6" isSubstitutable="false">
-            <classMoniker Id="3ae4d6b9-ca13-42dd-b47e-6f0c8b5bab2d" LastKnownName="LayoutSizeable" />
-            <elementDefinition Id="b847a185-e8bd-47bb-b756-be46a16b45c4" />
+          <generalization Id="74b097ac-a433-41c3-957c-9c73fc7d924a" isSubstitutable="false">
+            <classMoniker Id="69a04706-141b-4b88-9d8d-51533f1d2b19" LastKnownName="Layoutable" />
+            <elementDefinition Id="45033551-1a9d-4f25-adda-1d4a5be9c0a7" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
@@ -1644,5 +1630,19 @@
   </packagedElements>
   <package Id="9af3ff89-3a82-428c-8e53-d8e58f7f1d3d" name="Savory.Web.ECharts4.Modeling">
     <elementDefinition Id="d11be684-5e64-43c7-b2c5-c74293687450" />
+    <profileInstances>
+      <packageHasProfileInstances Id="38ea658d-d817-4d27-b968-171a977978f4">
+        <profileInstance Id="1c81f37c-3fba-425a-b9d2-4319f48fe176" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="091cf0aa-999d-4671-ae9f-dd792e8a25aa">
+        <profileInstance Id="385074fd-3d26-4859-83ca-55c3f3421b75" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
