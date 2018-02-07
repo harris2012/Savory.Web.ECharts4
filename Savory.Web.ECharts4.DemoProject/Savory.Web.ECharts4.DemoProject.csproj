@@ -71,11 +71,19 @@
     <Compile Include="EChartsHandler.ashx.cs">
       <DependentUpon>EChartsHandler.ashx</DependentUpon>
     </Compile>
+    <Compile Include="LegendDataHandler.ashx.cs">
+      <DependentUpon>LegendDataHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeriesDataHandler.ashx.cs">
+      <DependentUpon>SeriesDataHandler.ashx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="EChartsHandler.ashx" />
     <Content Include="packages.config" />
+    <Content Include="LegendDataHandler.ashx" />
+    <Content Include="SeriesDataHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

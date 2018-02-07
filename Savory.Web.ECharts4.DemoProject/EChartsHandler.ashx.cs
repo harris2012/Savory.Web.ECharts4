@@ -31,7 +31,6 @@ namespace Savory.Web.ECharts4.DemoProject
             };
             option.Tooltip = new Options.Tooltip { Formatter = "{a} <br/>{b} : {c} ({d}%)", Trigger = "item" };
             option.Calculable = true;
-            option.SerieList = new List<Serie> { new Serie { } };
 
             var content = JsonConvert.SerializeObject(option, Formatting.Indented, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore });
 

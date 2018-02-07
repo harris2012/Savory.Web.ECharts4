@@ -22,9 +22,6 @@ namespace Savory.Web.ECharts4
         [JsonProperty("calculable")]
         public bool Calculable { get; set; }
 
-        [JsonProperty("series")]
-        public List<Serie> SerieList { get; set; }
-
         [JsonProperty("tooltip")]
         public Tooltip Tooltip { get; set; }
     }
