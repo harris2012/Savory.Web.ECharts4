@@ -1,4 +1,5 @@
-﻿using Savory.Web.ECharts4.Options;
+﻿using Newtonsoft.Json;
+using Savory.Web.ECharts4.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,19 @@ namespace Savory.Web.ECharts4
 {
     public class EChartsOption
     {
-        [AsOne]
-        [EChartsProperty("title")]
-        public List<Title> Title { get; set; }
+        [JsonProperty("title")]
+        public List<Title> TitleList { get; set; }
+
+        [JsonProperty("legend")]
+        public Legend Legend { get; set; }
+
+        [JsonProperty("toolbox")]
+        public Toolbox Toolbox { get; set; }
+
+        [JsonProperty("calculable")]
+        public bool Calculable { get; set; }
+
+        [JsonProperty("series")]
+        public List<Serie> SerieList { get; set; }
     }
 }
