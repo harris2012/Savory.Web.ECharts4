@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>a20ba0ff-da08-4320-bb8a-14a1242a8e91</ProjectGuid>
+    <ProjectGuid>{A20BA0FF-DA08-4320-BB8A-14A1242A8E91}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Savory.Web.ECharts4</RootNamespace>
@@ -30,24 +30,53 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Convertor\AxisTypeConvertor.cs" />
+    <Compile Include="Convertor\LeftConvertor.cs" />
+    <Compile Include="Convertor\SerieDataCollectionConvertor.cs" />
+    <Compile Include="Convertor\SerieDataConvertor.cs" />
+    <Compile Include="Convertor\SerieTypeConvertor.cs" />
+    <Compile Include="EChartsOption.cs" />
+    <Compile Include="Left.cs" />
+    <Compile Include="LeftEnum.cs" />
+    <Compile Include="Options\AreaStyle.cs" />
+    <Compile Include="Options\Axis.cs" />
+    <Compile Include="Options\AxisPointer.cs" />
+    <Compile Include="Options\AxisTypeEnum.cs" />
+    <Compile Include="Options\Feature.cs" />
+    <Compile Include="Options\ItemStyle.cs" />
+    <Compile Include="Options\Layoutable.cs" />
+    <Compile Include="Options\LayoutSizeable.cs" />
+    <Compile Include="Options\Legend.cs" />
+    <Compile Include="Options\Serie.cs" />
+    <Compile Include="Options\SerieData.cs" />
+    <Compile Include="Options\SerieDataCollection.cs" />
+    <Compile Include="Options\SerieTypeEnum.cs" />
+    <Compile Include="Options\SerieType.cs" />
+    <Compile Include="Options\Title.cs" />
+    <Compile Include="Options\Toolbox.cs" />
+    <Compile Include="Options\Tooltip.cs" />
+    <Compile Include="Options\View.cs" />
+    <Compile Include="Options\XAxis.cs" />
+    <Compile Include="Options\AxisType.cs" />
+    <Compile Include="Options\YAxis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -57,5 +86,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

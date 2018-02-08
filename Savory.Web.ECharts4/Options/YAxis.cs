@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4
 {
-    public class Class1
+    public class YAxis : Axis
     {
     }
 }
