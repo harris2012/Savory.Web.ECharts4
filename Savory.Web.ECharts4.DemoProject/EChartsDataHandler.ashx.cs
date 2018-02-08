@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Savory.Web.ECharts4.DemoProject.Biz;
+using Savory.Web.ECharts4.DemoProject.BizData;
 using System;
 using System.Collections.Generic;
 using System.Linq;

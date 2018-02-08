@@ -80,9 +80,9 @@
     <Compile Include="BizOption\FirstExampleProcessor.cs" />
     <Compile Include="BizOption\OptionProcessorBase.cs" />
     <Compile Include="BizOption\ReturnValue.cs" />
-    <Compile Include="Biz\DataProcessorBase.cs" />
-    <Compile Include="Biz\FirstExampleProcessor.cs" />
-    <Compile Include="Biz\ReturnValue.cs" />
+    <Compile Include="BizData\DataProcessorBase.cs" />
+    <Compile Include="BizData\FirstExampleProcessor.cs" />
+    <Compile Include="BizData\ReturnValue.cs" />
     <Compile Include="EChartsDataHandler.ashx.cs">
       <DependentUpon>EChartsDataHandler.ashx</DependentUpon>
     </Compile>
