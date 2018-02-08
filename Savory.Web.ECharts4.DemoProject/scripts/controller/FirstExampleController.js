@@ -1,10 +1,6 @@
-﻿function FirstExampleController($scope, EChartsDataService) {
+﻿function FirstExampleController($scope, EChartsOptionService, EChartsDataService) {
 
-    ;
-
-    $.post('/EChartsOptionHandler.ashx', {}, function (option) {
-
-        var myChart = echarts.init(document.getElementById('main'));
+    EChartsOptionService.firstexample().then(function (option) {
 
         EChartsDataService.firstexample().then(function (data) {
 
@@ -22,7 +18,10 @@
             }];
 
             console.log(JSON.stringify(option, null, 2));
-            myChart.setOption(option);
+
+            var myChart = echarts.init(document.getElementById('main'));
+
+            myChart.setOption(option.toJSON());
         });
     });
 }
