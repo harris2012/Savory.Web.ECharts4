@@ -19,7 +19,16 @@
         </div>
     </header>
 
-    <div class="container" ui-view></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <ul class="nav">
+                    <li><a ui-sref="echarts.firstexample">First Example</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-10" ui-view></div>
+        </div>
+    </div>
 
     <hr />
 
