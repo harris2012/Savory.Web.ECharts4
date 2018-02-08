@@ -13,7 +13,7 @@ namespace Savory.Web.ECharts4.Options
         public string Name { get; set; }
 
         [JsonProperty("type")]
-        public SerieType? SerieType { get; set; }
+        public SerieType SerieType { get; set; }
 
         [JsonProperty("data")]
         public List<SerieData> Data { get; set; }

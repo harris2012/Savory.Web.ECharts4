@@ -40,7 +40,7 @@
         //    data: data.serieData
         //}];
 
-        ////console.log(JSON.stringify(option, null, 2));
+        console.log(JSON.stringify(option, null, 2));
 
         var myChart = echarts.init(document.getElementById('main'));
 

@@ -6,12 +6,32 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4.Options
 {
-    public enum SerieType
+    public class SerieType
     {
-        Line,
+        public static SerieType Line { get; set; } = new SerieType(SerieTypeEnum.Line);
+        public static SerieType Bar { get; set; } = new SerieType(SerieTypeEnum.Bar);
+        public static SerieType Pie { get; set; } = new SerieType(SerieTypeEnum.Pie);
 
-        Bar,
+        public SerieTypeEnum SerieTypeEnum { get; private set; }
 
-        Pie
+        private SerieType(SerieTypeEnum serieTypeEnum)
+        {
+            this.SerieTypeEnum = serieTypeEnum;
+        }
+
+        public static implicit operator SerieType(SerieTypeEnum serieTypeEnum)
+        {
+            switch (serieTypeEnum)
+            {
+                case SerieTypeEnum.Line:
+                    return Line;
+                case SerieTypeEnum.Bar:
+                    return Bar;
+                case SerieTypeEnum.Pie:
+                    return Pie;
+                default:
+                    throw new NotSupportedException();
+            }
+        }
     }
 }

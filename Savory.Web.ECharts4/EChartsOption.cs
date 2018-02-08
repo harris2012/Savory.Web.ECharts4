@@ -46,6 +46,7 @@ namespace Savory.Web.ECharts4
         /// <summary>
         /// 系列
         /// </summary>
+        [JsonProperty("series")]
         public List<Serie> SerieList { get; set; }
     }
 }

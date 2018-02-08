@@ -40,6 +40,7 @@ namespace Savory.Web.ECharts4.DemoProject
                 var settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
                 settings.Converters.Add(new LeftConvertor());
                 settings.Converters.Add(new AxisTypeConvertor());
+                settings.Converters.Add(new SerieTypeConvertor());
 
                 var content = JsonConvert.SerializeObject(option, Formatting.Indented, settings);
 
