@@ -65,6 +65,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\controller\FirstExampleController.js" />
+    <Content Include="scripts\controller\WelcomeController.js" />
+    <Content Include="scripts\service\EChartsDataService.js" />
+    <Content Include="scripts\service\EChartsOptionService.js" />
+    <Content Include="scripts\view\view_firstexample.html" />
+    <Content Include="scripts\view\view_welcome.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +103,9 @@
       <Project>{A20BA0FF-DA08-4320-BB8A-14A1242A8E91}</Project>
       <Name>Savory.Web.ECharts4</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
