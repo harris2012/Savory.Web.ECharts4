@@ -23,30 +23,33 @@ namespace Savory.Web.ECharts4.Convertor
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
             Left left = value as Left;
-            if (left != null)
+            if (left == null)
             {
-                if (left.LeftEnum != null)
+                return;
+            }
+
+            if (left.LeftEnum != null)
+            {
+                switch (left.LeftEnum.Value)
                 {
-                    switch (left.LeftEnum.Value)
-                    {
-                        case LeftEnum.Left:
-                            writer.WriteValue("left");
-                            break;
-                        case LeftEnum.Center:
-                            writer.WriteValue("center");
-                            break;
-                        case LeftEnum.Right:
-                            writer.WriteValue("right");
-                            break;
-                        default:
-                            break;
-                    }
-                }
-                else if (left.LeftValue != null)
-                {
-                    writer.WriteValue(left.LeftValue);
+                    case LeftEnum.Left:
+                        writer.WriteValue("left");
+                        break;
+                    case LeftEnum.Center:
+                        writer.WriteValue("center");
+                        break;
+                    case LeftEnum.Right:
+                        writer.WriteValue("right");
+                        break;
+                    default:
+                        break;
                 }
             }
+            else if (left.LeftValue != null)
+            {
+                writer.WriteValue(left.LeftValue);
+            }
         }
+
     }
 }

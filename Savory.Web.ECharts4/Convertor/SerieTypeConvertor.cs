@@ -23,23 +23,26 @@ namespace Savory.Web.ECharts4.Convertor
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
             SerieType serieType = value as SerieType;
-            if (serieType != null)
+            if (serieType == null)
             {
-                switch (serieType.SerieTypeEnum)
-                {
-                    case SerieTypeEnum.Line:
-                        writer.WriteValue("line");
-                        break;
-                    case SerieTypeEnum.Bar:
-                        writer.WriteValue("bar");
-                        break;
-                    case SerieTypeEnum.Pie:
-                        writer.WriteValue("pie");
-                        break;
-                    default:
-                        throw new NotSupportedException();
-                }
+                return;
             }
+
+            switch (serieType.SerieTypeEnum)
+            {
+                case SerieTypeEnum.Line:
+                    writer.WriteValue("line");
+                    break;
+                case SerieTypeEnum.Bar:
+                    writer.WriteValue("bar");
+                    break;
+                case SerieTypeEnum.Pie:
+                    writer.WriteValue("pie");
+                    break;
+                default:
+                    throw new NotSupportedException();
+            }
+
         }
     }
 }

@@ -2,17 +2,18 @@
 using Savory.Web.ECharts4.Options;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4.Convertor
 {
-    public class SerieDataConvertor : JsonConverter
+    public class SerieDataCollectionConvertor : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {
-            return objectType == typeof(SerieData);
+            return objectType == typeof(SerieDataCollection);
         }
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
@@ -22,21 +23,17 @@ namespace Savory.Web.ECharts4.Convertor
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            SerieData serieData = value as SerieData;
-            if (serieData == null)
+            SerieDataCollection collection = value as SerieDataCollection;
+            if (collection == null || collection.SerieDataList == null || collection.SerieDataList.Count == 0)
             {
                 return;
             }
-            if (serieData.Name == null)
-            {
-                writer.WriteValue(serieData.Value);
-            }
-            else
-            {
-                var itemString = JsonConvert.SerializeObject(serieData);
 
-                writer.WriteValue(itemString);
-            }
+            serializer.Serialize(writer, collection.SerieDataList);
+
+            //var itemString = JsonConvert.SerializeObject(collection.SerieDataList);
+
+            //writer.WriteValue(itemString);
         }
     }
 }

@@ -41,6 +41,7 @@ namespace Savory.Web.ECharts4.DemoProject
                 settings.Converters.Add(new LeftConvertor());
                 settings.Converters.Add(new AxisTypeConvertor());
                 settings.Converters.Add(new SerieTypeConvertor());
+                settings.Converters.Add(new SerieDataCollectionConvertor());
 
                 var content = JsonConvert.SerializeObject(option, Formatting.Indented, settings);
 

@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Convertor\AxisTypeConvertor.cs" />
     <Compile Include="Convertor\LeftConvertor.cs" />
+    <Compile Include="Convertor\SerieDataCollectionConvertor.cs" />
     <Compile Include="Convertor\SerieDataConvertor.cs" />
     <Compile Include="Convertor\SerieTypeConvertor.cs" />
     <Compile Include="EChartsOption.cs" />
