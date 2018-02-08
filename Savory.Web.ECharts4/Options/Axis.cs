@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,10 @@ namespace Savory.Web.ECharts4.Options
     /// </summary>
     public abstract class Axis
     {
+        /// <summary>
+        /// 坐标轴类型
+        /// </summary>
+        [JsonProperty("type")]
+        public AxisType? AXisType { get; set; }
     }
 }

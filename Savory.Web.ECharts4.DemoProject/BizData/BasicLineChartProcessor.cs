@@ -9,7 +9,11 @@ namespace Savory.Web.ECharts4.DemoProject.BizData
     {
         public override object Process()
         {
-            throw new NotImplementedException();
+            var categories = new List<string> { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
+
+            List<int> items = new List<int> { 820, 932, 901, 934, 1290, 1330, 1320 };
+
+            return new { xAxisData = categories, seriesData = items };
         }
     }
 }

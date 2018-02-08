@@ -8,5 +8,7 @@ namespace Savory.Web.ECharts4.Options
 {
     public class XAxis : Axis
     {
+
+        
     }
 }

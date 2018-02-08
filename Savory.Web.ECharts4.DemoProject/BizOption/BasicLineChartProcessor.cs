@@ -9,7 +9,13 @@ namespace Savory.Web.ECharts4.DemoProject.BizOption
     {
         public override object Process()
         {
-            throw new NotImplementedException();
+            var option = new EChartsOption();
+
+            option.XAxis = new Options.XAxis { AXisType = Options.AxisType.Category };
+
+            option.YAxis = new Options.YAxis { AXisType = Options.AxisType.Value };
+
+            return option;
         }
     }
 }

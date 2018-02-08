@@ -17,7 +17,7 @@ namespace Savory.Web.ECharts4.Convertor
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            return LeftEnum.Right;
+            throw new NotImplementedException();
         }
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)

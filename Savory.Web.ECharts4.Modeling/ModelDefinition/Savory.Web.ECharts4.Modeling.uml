@@ -959,17 +959,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="ed6d3767-bd1a-40b8-9250-3dff775b13eb"
-            name="Type"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="ec7559e0-103c-4f4b-8444-0adcb17765a8"
             name="Name"
             isLeaf="false"
@@ -1244,17 +1233,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="675c6f88-da9e-4a8c-aa11-8c795f539565"
-            name="Type"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="1a8127f7-0d55-4689-a83b-1faad8758f60"
             name="NameLocation"
             isLeaf="false"
@@ -1509,17 +1487,6 @@
           <property
             Id="000919d4-993a-4cc5-ab54-c824c43c324d"
             name="PolarIndex"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="b5df0ce4-46a7-48e5-b35b-c6ee7f718433"
-            name="Type"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1805,17 +1772,6 @@
           <property
             Id="a7c7f04e-4194-4dfd-bf5a-bb4fd5ee3332"
             name="Clockwise"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="72202aa6-7012-445f-8bb1-a30e7d9860f9"
-            name="Type"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -3351,17 +3307,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="4d3dd5a5-09ca-4212-a3ff-75e69215492f"
-            name="Type"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="44230406-7351-4321-a43c-2bf0c7aa7aac"
             name="Name"
             isLeaf="false"
@@ -3649,17 +3594,6 @@
           <property
             Id="9381cfa4-d112-4e95-a8f2-65ef7936f216"
             name="Orient"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="0e441adc-f153-4a5f-8b38-551ca57ecf8f"
-            name="Type"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5134,6 +5068,17 @@
           <property
             Id="51632b49-dc05-4199-a134-410f86ea4501"
             name="AxisTick"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="cf46ac63-24bb-4b9e-b14a-3822d379ecaf"
+            name="Type"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

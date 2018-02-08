@@ -26,7 +26,7 @@ namespace Savory.Web.ECharts4
 
 
         [JsonProperty("calculable")]
-        public bool Calculable { get; set; }
+        public bool? Calculable { get; set; }
 
 
         [JsonProperty("tooltip")]

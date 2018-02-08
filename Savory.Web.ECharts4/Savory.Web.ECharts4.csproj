@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Convertor\AxisTypeConvertor.cs" />
     <Compile Include="Convertor\LeftConvertor.cs" />
     <Compile Include="EChartsOption.cs" />
     <Compile Include="Left.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Options\Tooltip.cs" />
     <Compile Include="Options\View.cs" />
     <Compile Include="Options\XAxis.cs" />
+    <Compile Include="Options\AxisType.cs" />
     <Compile Include="Options\YAxis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
