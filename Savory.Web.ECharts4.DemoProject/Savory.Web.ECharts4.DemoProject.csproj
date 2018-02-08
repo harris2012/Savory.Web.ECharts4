@@ -77,6 +77,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BizData\BasicLineChartProcessor.cs" />
+    <Compile Include="BizOption\BasicLineChartProcessor.cs" />
     <Compile Include="BizOption\FirstExampleProcessor.cs" />
     <Compile Include="BizOption\OptionProcessorBase.cs" />
     <Compile Include="BizOption\ReturnValue.cs" />

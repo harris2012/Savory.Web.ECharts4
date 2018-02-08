@@ -26,13 +26,16 @@ namespace Savory.Web.ECharts4.DemoProject
                 case "firstexample":
                     processor = new FirstExampleProcessor();
                     break;
+                case "BasicLineChart":
+                    processor = new BasicLineChartProcessor();
+                    break;
                 default:
                     break;
             }
 
             if (processor != null)
             {
-                var option = processor.GetOption();
+                var option = processor.Process();
 
                 var settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
                 settings.Converters.Add(new LeftConvertor());

@@ -7,7 +7,7 @@ namespace Savory.Web.ECharts4.DemoProject.BizOption
 {
     public class FirstExampleProcessor : OptionProcessorBase
     {
-        public override object GetOption()
+        public override object Process()
         {
             EChartsOption option = new EChartsOption();
             option.TitleList = new List<Options.Title>();

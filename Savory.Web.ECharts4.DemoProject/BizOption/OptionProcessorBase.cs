@@ -7,6 +7,6 @@ namespace Savory.Web.ECharts4.DemoProject.BizOption
 {
     public abstract class OptionProcessorBase
     {
-        public abstract object GetOption();
+        public abstract object Process();
     }
 }

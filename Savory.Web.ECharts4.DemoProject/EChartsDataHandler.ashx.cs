@@ -23,6 +23,9 @@ namespace Savory.Web.ECharts4.DemoProject
                 case "firstexample":
                     processor = new FirstExampleProcessor();
                     break;
+                case "BasicLineChart":
+                    processor = new BasicLineChartProcessor();
+                    break;
                 default:
                     break;
             }
