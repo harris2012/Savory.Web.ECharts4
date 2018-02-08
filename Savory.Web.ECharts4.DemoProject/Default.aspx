@@ -23,7 +23,9 @@
         <div class="row">
             <div class="col-sm-2">
                 <ul class="nav">
+                    <li><a ui-sref="echarts.welcome">Home</a></li>
                     <li><a ui-sref="echarts.firstexample">First Example</a></li>
+                    <li><a ui-sref="echarts.BasicLineChart">BasicLineChart</a></li>
                 </ul>
             </div>
             <div class="col-sm-10" ui-view></div>
@@ -34,7 +36,7 @@
 
     <footer>
         <div class="container">
-            <p>度假优惠平台</p>
+            <p>ECharts Test Page</p>
         </div>
     </footer>
 
@@ -49,6 +51,7 @@
 
     <script src="scripts/controller/FirstExampleController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
     <script src="scripts/controller/WelcomeController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
+    <script src="scripts/controller/BasicLineChartController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
 
     <script src="scripts/service/EChartsService.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
 

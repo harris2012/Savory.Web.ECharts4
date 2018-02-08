@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Savory.Web.ECharts4;
 using Savory.Web.ECharts4.Convertor;
+using Savory.Web.ECharts4.DemoProject.BizOption;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,28 +18,33 @@ namespace Savory.Web.ECharts4.DemoProject
         {
             context.Response.ContentType = "application/json";
 
-            EChartsOption option = new EChartsOption();
-            option.TitleList = new List<Options.Title>();
-            option.TitleList.Add(new Options.Title { Text = "MainTitle", SubText = "link", Left = LeftEnum.Center });
-            option.Legend = new Options.Legend { Orient = "vertical", X = "left" };
-            option.Toolbox = new Options.Toolbox
+            OptionProcessorBase processor = null;
+
+            var id = context.Request.QueryString["id"];
+            switch (id)
             {
-                Show = true,
-                Feature = new Options.Feature
-                {
-                    Restore = new Options.Restore { Show = true },
-                    SaveAsImage = new Options.SaveAsImage { Show = true }
-                }
-            };
-            option.Tooltip = new Options.Tooltip { Formatter = "{a} <br/>{b} : {c} ({d}%)", Trigger = "item" };
-            option.Calculable = true;
+                case "firstexample":
+                    processor = new FirstExampleProcessor();
+                    break;
+                default:
+                    break;
+            }
 
-            var settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
-            settings.Converters.Add(new LeftConvertor());
+            if (processor != null)
+            {
+                var option = processor.GetOption();
 
-            var content = JsonConvert.SerializeObject(option, Formatting.Indented, settings);
+                var settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
+                settings.Converters.Add(new LeftConvertor());
 
-            context.Response.Write(content);
+                var content = JsonConvert.SerializeObject(option, Formatting.Indented, settings);
+
+                context.Response.Write(content);
+            }
+            else
+            {
+                context.Response.Write("{\"message\":\"id is null or not supported.\"}");
+            }
         }
 
         public bool IsReusable

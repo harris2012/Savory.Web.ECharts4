@@ -48,6 +48,7 @@
     <Compile Include="EChartsOption.cs" />
     <Compile Include="Left.cs" />
     <Compile Include="LeftEnum.cs" />
+    <Compile Include="Options\Axis.cs" />
     <Compile Include="Options\Feature.cs" />
     <Compile Include="Options\Layoutable.cs" />
     <Compile Include="Options\LayoutSizeable.cs" />
@@ -56,6 +57,8 @@
     <Compile Include="Options\Toolbox.cs" />
     <Compile Include="Options\Tooltip.cs" />
     <Compile Include="Options\View.cs" />
+    <Compile Include="Options\XAxis.cs" />
+    <Compile Include="Options\YAxis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

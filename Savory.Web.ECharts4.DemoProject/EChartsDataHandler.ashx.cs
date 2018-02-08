@@ -21,7 +21,7 @@ namespace Savory.Web.ECharts4.DemoProject
             switch (id)
             {
                 case "firstexample":
-                    processor = new FirstExampleDataProcessor();
+                    processor = new FirstExampleProcessor();
                     break;
                 default:
                     break;

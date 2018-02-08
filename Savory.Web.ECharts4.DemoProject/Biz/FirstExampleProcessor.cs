@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Savory.Web.ECharts4.DemoProject.Biz
 {
-    public class FirstExampleDataProcessor : DataProcessorBase
+    public class FirstExampleProcessor : DataProcessorBase
     {
         public override object Process()
         {

@@ -66,17 +66,22 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="scripts\app.js" />
+    <Content Include="scripts\controller\BasicLineChartController.js" />
     <Content Include="scripts\controller\FirstExampleController.js" />
     <Content Include="scripts\controller\WelcomeController.js" />
     <Content Include="scripts\route.js" />
     <Content Include="scripts\service\EChartsService.js" />
+    <Content Include="scripts\view\view_BasicLineChart.html" />
     <Content Include="scripts\view\view_firstexample.html" />
     <Content Include="scripts\view\view_welcome.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BizOption\FirstExampleProcessor.cs" />
+    <Compile Include="BizOption\OptionProcessorBase.cs" />
+    <Compile Include="BizOption\ReturnValue.cs" />
     <Compile Include="Biz\DataProcessorBase.cs" />
-    <Compile Include="Biz\FirstExampleDataProcessor.cs" />
+    <Compile Include="Biz\FirstExampleProcessor.cs" />
     <Compile Include="Biz\ReturnValue.cs" />
     <Compile Include="EChartsDataHandler.ashx.cs">
       <DependentUpon>EChartsDataHandler.ashx</DependentUpon>
