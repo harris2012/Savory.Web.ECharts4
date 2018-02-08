@@ -50,8 +50,7 @@
     <script src="scripts/controller/FirstExampleController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
     <script src="scripts/controller/WelcomeController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
 
-    <script src="scripts/service/EChartsDataService.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
-    <script src="scripts/service/EChartsOptionService.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
+    <script src="scripts/service/EChartsService.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
 
     <script src="scripts/route.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
     <script src="scripts/app.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>

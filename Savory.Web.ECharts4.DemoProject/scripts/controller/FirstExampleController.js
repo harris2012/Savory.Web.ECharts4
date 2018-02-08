@@ -1,8 +1,8 @@
-﻿function FirstExampleController($scope, EChartsOptionService, EChartsDataService) {
+﻿function FirstExampleController($scope, EChartsService) {
 
-    EChartsOptionService.firstexample().then(function (option) {
+    EChartsService.getOption('firstexample').then(function (option) {
 
-        EChartsDataService.firstexample().then(function (data) {
+        EChartsService.getData('firstexample').then(function (data) {
 
             option.legend.data = data.legendData;
 
@@ -17,7 +17,7 @@
                 data: data.serieData
             }];
 
-            console.log(JSON.stringify(option, null, 2));
+            //console.log(JSON.stringify(option, null, 2));
 
             var myChart = echarts.init(document.getElementById('main'));
 

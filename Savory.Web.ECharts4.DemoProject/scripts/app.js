@@ -2,8 +2,7 @@
 
 app.config(route);
 
-app.service('EChartsDataService', ['$resource', '$q', EChartsDataService]);
-app.service('EChartsOptionService', ['$resource', '$q', EChartsOptionService]);
+app.service('EChartsService', ['$resource', '$q', EChartsService]);
 
 app.controller(FirstExampleController);
 app.controller(WelcomeController);
