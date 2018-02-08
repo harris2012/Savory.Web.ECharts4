@@ -11,7 +11,7 @@ namespace Savory.Web.ECharts4.DemoProject
     /// <summary>
     /// EChartsHandler 的摘要说明
     /// </summary>
-    public class EChartsHandler : IHttpHandler
+    public class EChartsOptionHandler : IHttpHandler
     {
         public void ProcessRequest(HttpContext context)
         {

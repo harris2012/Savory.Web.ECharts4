@@ -68,6 +68,7 @@
     <Content Include="scripts\app.js" />
     <Content Include="scripts\controller\FirstExampleController.js" />
     <Content Include="scripts\controller\WelcomeController.js" />
+    <Content Include="scripts\route.js" />
     <Content Include="scripts\service\EChartsDataService.js" />
     <Content Include="scripts\service\EChartsOptionService.js" />
     <Content Include="scripts\view\view_firstexample.html" />
@@ -75,22 +76,18 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EChartsHandler.ashx.cs">
-      <DependentUpon>EChartsHandler.ashx</DependentUpon>
+    <Compile Include="EChartsDataHandler.ashx.cs">
+      <DependentUpon>EChartsDataHandler.ashx</DependentUpon>
     </Compile>
-    <Compile Include="LegendDataHandler.ashx.cs">
-      <DependentUpon>LegendDataHandler.ashx</DependentUpon>
+    <Compile Include="EChartsOptionHandler.ashx.cs">
+      <DependentUpon>EChartsOptionHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SeriesDataHandler.ashx.cs">
-      <DependentUpon>SeriesDataHandler.ashx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EChartsHandler.ashx" />
+    <Content Include="EChartsOptionHandler.ashx" />
     <Content Include="packages.config" />
-    <Content Include="LegendDataHandler.ashx" />
-    <Content Include="SeriesDataHandler.ashx" />
+    <Content Include="EChartsDataHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -104,9 +101,7 @@
       <Name>Savory.Web.ECharts4</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="styles\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
