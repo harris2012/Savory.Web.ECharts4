@@ -30,10 +30,6 @@ namespace Savory.Web.ECharts4.Convertor
             }
 
             serializer.Serialize(writer, collection.SerieDataList);
-
-            //var itemString = JsonConvert.SerializeObject(collection.SerieDataList);
-
-            //writer.WriteValue(itemString);
         }
     }
 }
