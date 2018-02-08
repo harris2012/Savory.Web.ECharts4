@@ -76,6 +76,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Biz\DataProcessorBase.cs" />
+    <Compile Include="Biz\FirstExampleDataProcessor.cs" />
+    <Compile Include="Biz\ReturnValue.cs" />
     <Compile Include="EChartsDataHandler.ashx.cs">
       <DependentUpon>EChartsDataHandler.ashx</DependentUpon>
     </Compile>

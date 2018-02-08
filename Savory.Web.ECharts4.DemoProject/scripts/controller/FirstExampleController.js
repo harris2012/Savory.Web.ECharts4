@@ -1,9 +1,12 @@
-﻿function FirstExampleController($scope) {
+﻿function FirstExampleController($scope, EChartsDataService) {
+
+    ;
+
     $.post('/EChartsOptionHandler.ashx', {}, function (option) {
 
         var myChart = echarts.init(document.getElementById('main'));
 
-        $.post("/EChartsDataHandler.ashx", {}, function (data) {
+        EChartsDataService.firstexample().then(function (data) {
 
             option.legend.data = data.legendData;
 
