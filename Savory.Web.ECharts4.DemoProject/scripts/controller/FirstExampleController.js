@@ -11,7 +11,10 @@
                 name: '访问来源',
                 type: 'pie',
                 radius: ['50%', '70%'],
-                itemStyle: { normal: { label: { show: false }, labelLine: { show: false } }, emphasis: { label: { show: true, position: 'center', textStyle: { fontSize: '30', fontWeight: 'bold' } } } },
+                itemStyle: {
+                    normal: { label: { show: false }, labelLine: { show: false } },
+                    emphasis: { label: { show: true, position: 'center', textStyle: { fontSize: '30', fontWeight: 'bold' } } }
+                },
                 data: data.serieData
             }];
 
