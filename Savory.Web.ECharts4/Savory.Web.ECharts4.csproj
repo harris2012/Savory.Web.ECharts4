@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Convertor\AxisTypeConvertor.cs" />
     <Compile Include="Convertor\LeftConvertor.cs" />
+    <Compile Include="Convertor\SerieDataConvertor.cs" />
     <Compile Include="EChartsOption.cs" />
     <Compile Include="Left.cs" />
     <Compile Include="LeftEnum.cs" />
@@ -54,6 +55,9 @@
     <Compile Include="Options\Layoutable.cs" />
     <Compile Include="Options\LayoutSizeable.cs" />
     <Compile Include="Options\Legend.cs" />
+    <Compile Include="Options\Serie.cs" />
+    <Compile Include="Options\SerieData.cs" />
+    <Compile Include="Options\SerieType.cs" />
     <Compile Include="Options\Title.cs" />
     <Compile Include="Options\Toolbox.cs" />
     <Compile Include="Options\Tooltip.cs" />

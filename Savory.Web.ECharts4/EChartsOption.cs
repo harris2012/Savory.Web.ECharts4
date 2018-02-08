@@ -28,7 +28,6 @@ namespace Savory.Web.ECharts4
         [JsonProperty("calculable")]
         public bool? Calculable { get; set; }
 
-
         [JsonProperty("tooltip")]
         public Tooltip Tooltip { get; set; }
 
@@ -43,5 +42,10 @@ namespace Savory.Web.ECharts4
         /// </summary>
         [JsonProperty("yAxis")]
         public YAxis YAxis { get; set; }
+
+        /// <summary>
+        /// 系列
+        /// </summary>
+        public List<Serie> SerieList { get; set; }
     }
 }

@@ -14,5 +14,8 @@ namespace Savory.Web.ECharts4.Options
 
         [JsonProperty("x")]
         public string X { get; set; }
+
+        [JsonProperty("data")]
+        public object Data { get; set; }
     }
 }

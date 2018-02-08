@@ -1,29 +1,16 @@
 ﻿function EChartsService($resource, $q) {
 
     var resource = $resource(null, {}, {
-        getData: {
+        getThem: {
             method: 'POST',
-            url: '/EChartsDataHandler.ashx'
-        },
-        getOption: {
-            method: 'POST',
-            url: '/EChartsOptionHandler.ashx'
+            url: '/EChartsHandler.ashx'
         }
     });
 
     return {
-        getData: function (id) {
+        getThem: function (id) {
             var d = $q.defer();
-            resource.getData({ id: id }, null, function (result) {
-                d.resolve(result);
-            }, function (result) {
-                d.reject(result);
-            });
-            return d.promise;
-        },
-        getOption: function (id) {
-            var d = $q.defer();
-            resource.getOption({ id: id }, null, function (result) {
+            resource.getThem({ id: id }, null, function (result) {
                 d.resolve(result);
             }, function (result) {
                 d.reject(result);

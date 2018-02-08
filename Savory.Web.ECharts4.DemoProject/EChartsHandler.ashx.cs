@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
-using Savory.Web.ECharts4;
 using Savory.Web.ECharts4.Convertor;
-using Savory.Web.ECharts4.DemoProject.BizOption;
+using Savory.Web.ECharts4.DemoProject.Biz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,13 +11,14 @@ namespace Savory.Web.ECharts4.DemoProject
     /// <summary>
     /// EChartsHandler 的摘要说明
     /// </summary>
-    public class EChartsOptionHandler : IHttpHandler
+    public class EChartsHandler : IHttpHandler
     {
+
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "application/json";
 
-            OptionProcessorBase processor = null;
+            ProcessorBase processor = null;
 
             var id = context.Request.QueryString["id"];
             switch (id)
@@ -35,10 +35,11 @@ namespace Savory.Web.ECharts4.DemoProject
 
             if (processor != null)
             {
-                var option = processor.Process();
+                var option = processor.GetOption();
 
                 var settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
                 settings.Converters.Add(new LeftConvertor());
+                settings.Converters.Add(new AxisTypeConvertor());
 
                 var content = JsonConvert.SerializeObject(option, Formatting.Indented, settings);
 

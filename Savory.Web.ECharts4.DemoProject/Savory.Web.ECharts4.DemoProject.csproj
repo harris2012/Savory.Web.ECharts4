@@ -77,26 +77,17 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BizData\BasicLineChartProcessor.cs" />
-    <Compile Include="BizOption\BasicLineChartProcessor.cs" />
-    <Compile Include="BizOption\FirstExampleProcessor.cs" />
-    <Compile Include="BizOption\OptionProcessorBase.cs" />
-    <Compile Include="BizOption\ReturnValue.cs" />
-    <Compile Include="BizData\DataProcessorBase.cs" />
-    <Compile Include="BizData\FirstExampleProcessor.cs" />
-    <Compile Include="BizData\ReturnValue.cs" />
-    <Compile Include="EChartsDataHandler.ashx.cs">
-      <DependentUpon>EChartsDataHandler.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="EChartsOptionHandler.ashx.cs">
-      <DependentUpon>EChartsOptionHandler.ashx</DependentUpon>
+    <Compile Include="Biz\BasicLineChartProcessor.cs" />
+    <Compile Include="Biz\FirstExampleProcessor.cs" />
+    <Compile Include="Biz\ProcessorBase.cs" />
+    <Compile Include="EChartsHandler.ashx.cs">
+      <DependentUpon>EChartsHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EChartsOptionHandler.ashx" />
     <Content Include="packages.config" />
-    <Content Include="EChartsDataHandler.ashx" />
+    <Content Include="EChartsHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
