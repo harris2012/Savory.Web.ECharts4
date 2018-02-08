@@ -22,23 +22,26 @@ namespace Savory.Web.ECharts4.Convertor
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            AxisType axisType = (AxisType)value;
-            switch (axisType)
+            AxisType axisType = value as AxisType;
+            if (axisType != null)
             {
-                case AxisType.Value:
-                    writer.WriteValue("value");
-                    break;
-                case AxisType.Category:
-                    writer.WriteValue("category");
-                    break;
-                case AxisType.Time:
-                    writer.WriteValue("time");
-                    break;
-                case AxisType.Log:
-                    writer.WriteValue("log");
-                    break;
-                default:
-                    break;
+                switch (axisType.AxisTypeEnum)
+                {
+                    case AxisTypeEnum.Value:
+                        writer.WriteValue("value");
+                        break;
+                    case AxisTypeEnum.Category:
+                        writer.WriteValue("category");
+                        break;
+                    case AxisTypeEnum.Time:
+                        writer.WriteValue("time");
+                        break;
+                    case AxisTypeEnum.Log:
+                        writer.WriteValue("log");
+                        break;
+                    default:
+                        throw new NotSupportedException();
+                }
             }
         }
     }

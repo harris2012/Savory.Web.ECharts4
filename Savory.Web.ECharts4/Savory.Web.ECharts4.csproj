@@ -52,6 +52,7 @@
     <Compile Include="Left.cs" />
     <Compile Include="LeftEnum.cs" />
     <Compile Include="Options\Axis.cs" />
+    <Compile Include="Options\AxisTypeEnum.cs" />
     <Compile Include="Options\Feature.cs" />
     <Compile Include="Options\ItemStyle.cs" />
     <Compile Include="Options\Layoutable.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Options\Legend.cs" />
     <Compile Include="Options\Serie.cs" />
     <Compile Include="Options\SerieData.cs" />
+    <Compile Include="Options\SerieDataCollection.cs" />
     <Compile Include="Options\SerieTypeEnum.cs" />
     <Compile Include="Options\SerieType.cs" />
     <Compile Include="Options\Title.cs" />

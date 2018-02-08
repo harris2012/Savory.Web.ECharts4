@@ -9,26 +9,35 @@ namespace Savory.Web.ECharts4.Options
     /// <summary>
     /// 坐标轴类型。
     /// </summary>
-    public enum AxisType
+    public class AxisType
     {
-        /// <summary>
-        /// 'value' 数值轴，适用于连续数据。
-        /// </summary>
-        Value,
+        public static AxisType Value { get; set; } = new AxisType(AxisTypeEnum.Value);
+        public static AxisType Category { get; set; } = new AxisType(AxisTypeEnum.Category);
+        public static AxisType Time { get; set; } = new AxisType(AxisTypeEnum.Time);
+        public static AxisType Log { get; set; } = new AxisType(AxisTypeEnum.Log);
 
-        /// <summary>
-        /// 'category' 类目轴，适用于离散的类目数据，为该类型时必须通过 data 设置类目数据。
-        /// </summary>
-        Category,
+        public AxisTypeEnum AxisTypeEnum { get; private set; }
 
-        /// <summary>
-        /// 'time' 时间轴，适用于连续的时序数据，与数值轴相比时间轴带有时间的格式化，在刻度计算上也有所不同，例如会根据跨度的范围来决定使用月，星期，日还是小时范围的刻度。
-        /// </summary>
-        Time,
+        private AxisType(AxisTypeEnum axisTypeEnum)
+        {
+            this.AxisTypeEnum = axisTypeEnum;
+        }
 
-        /// <summary>
-        /// 'log' 对数轴。适用于对数数据。
-        /// </summary>
-        Log
+        public static implicit operator AxisType(AxisTypeEnum axisTypeEnum)
+        {
+            switch (axisTypeEnum)
+            {
+                case AxisTypeEnum.Value:
+                    return Value;
+                case AxisTypeEnum.Category:
+                    return Category;
+                case AxisTypeEnum.Time:
+                    return Time;
+                case AxisTypeEnum.Log:
+                    return Log;
+                default:
+                    throw new NotSupportedException();
+            }
+        }
     }
 }

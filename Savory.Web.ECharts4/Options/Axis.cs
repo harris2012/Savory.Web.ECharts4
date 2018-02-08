@@ -16,6 +16,9 @@ namespace Savory.Web.ECharts4.Options
         /// 坐标轴类型
         /// </summary>
         [JsonProperty("type")]
-        public AxisType? AXisType { get; set; }
+        public AxisType AXisType { get; set; }
+
+        [JsonProperty("data")]
+        public object Data { get; set; }
     }
 }

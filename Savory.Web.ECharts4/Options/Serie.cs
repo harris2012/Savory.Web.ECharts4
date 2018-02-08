@@ -16,7 +16,7 @@ namespace Savory.Web.ECharts4.Options
         public SerieType SerieType { get; set; }
 
         [JsonProperty("data")]
-        public List<SerieData> Data { get; set; }
+        public SerieDataCollection Data { get; set; }
 
         [JsonProperty("radius")]
         public List<string> Radius { get; set; }
