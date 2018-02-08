@@ -62,11 +62,34 @@ namespace Savory.Web.ECharts4.DemoProject.Biz
             //}];
 
             option.SerieList = new List<Serie>();
-            option.SerieList.Add(new Options.Serie
+            option.SerieList.Add(new Serie
             {
                 Name = "访问来源",
                 SerieType = SerieType.Pie,
-                Radius = new List<string> { "50%", "70%" }
+                Radius = new
+                List<string> { "50%", "70%" }
+            });
+            option.SerieList[0].ItemStyle = new Dictionary<string, ItemStyle>();
+            option.SerieList[0].ItemStyle.Add("normal", new ItemStyle
+            {
+                Label = new Label { Show = false },
+                LabelLine = new LabelLine
+                {
+                    Show = false
+                }
+            });
+            option.SerieList[0].ItemStyle.Add("emphasis", new ItemStyle
+            {
+                Label = new Label
+                {
+                    Show = true,
+                    Position = "center",
+                    TextStyle = new TextStyle
+                    {
+                        FontSize = 30,
+                        FontWeight = "bold"
+                    }
+                }
             });
 
             option.SerieList[0].Data = new List<SerieData>

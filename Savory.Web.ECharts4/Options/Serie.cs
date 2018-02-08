@@ -21,7 +21,7 @@ namespace Savory.Web.ECharts4.Options
         [JsonProperty("radius")]
         public List<string> Radius { get; set; }
 
-        //[JsonProperty("itemStyle")]
-        //public ItemStyle ItemStyle { get; set; }
+        [JsonProperty("itemStyle")]
+        public Dictionary<string, ItemStyle> ItemStyle { get; set; }
     }
 }
