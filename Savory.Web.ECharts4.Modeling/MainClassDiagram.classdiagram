@@ -283,9 +283,9 @@
       <class Id="46695565-09cb-450a-bc97-4341930bc35e" name="XAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="f7e90e29-3dd4-4ba2-9afc-4cddbb574a56" />
         <generalsInternal>
-          <generalization Id="bf790406-b136-4271-896d-b2ccfa1e3679" isSubstitutable="false">
-            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
-            <elementDefinition Id="e1a0b565-a4e6-4908-be6f-a2859c5fd963" />
+          <generalization Id="f196f023-ac13-4a42-9b4d-e112e4d5df6e" isSubstitutable="false">
+            <classMoniker Id="a88b5c6a-4ca4-4b04-9104-d44671c3897a" LastKnownName="AxisWithSplitLine" />
+            <elementDefinition Id="3c1bad64-eac6-4473-a2d2-79dc3e987e5c" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
@@ -325,9 +325,6 @@
           <property Id="f6b69eaf-5f88-46ad-977d-547ea596556b" name="Scale" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="24eb4d86-f8c8-475e-bfbd-1336cd7c3839" />
           </property>
-          <property Id="bdcb52e8-ea85-4e45-a995-507bba099008" name="SplitNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="c5363c89-5f11-4bb1-8d65-4eec734fb4fc" />
-          </property>
           <property Id="58407611-ab76-4470-973d-bc610966c368" name="MinInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="193956f8-0582-4ef4-a593-ed679a0bc0b6" />
           </property>
@@ -336,15 +333,6 @@
           </property>
           <property Id="654b07fc-f7d8-49f8-860d-d2af8919578d" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a1ace315-eb4a-491f-ad9d-1c23f3d99d65" />
-          </property>
-          <property Id="f2dd1946-d9f1-4d85-968a-ad869f0af43a" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="46a43474-fffb-4938-9f96-9154daf5eb03" />
-          </property>
-          <property Id="e8a28e16-06a3-4850-98bb-ec323716a53e" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4d690aa8-0e9b-4ded-9270-f8c40248b881" />
-          </property>
-          <property Id="2e7adef4-fa22-453d-865b-2e4866945610" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ce3d141d-083f-4b25-8fd8-74f44c317c46" />
           </property>
           <property Id="8753991c-85bc-4230-83a0-e667b8db31b3" name="AplitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4b60b68f-0aba-4466-bfad-5f131499d08f" />
@@ -365,9 +353,9 @@
       <class Id="dbdc2347-71be-415c-ab6a-a1a0a53245d7" name="YAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="a1dfdd45-4692-43df-8040-863a92d9af1d" />
         <generalsInternal>
-          <generalization Id="10493925-7424-4eb3-83c1-fdaadc812ed9" isSubstitutable="false">
-            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
-            <elementDefinition Id="1c1ffcbf-0e7e-48a7-bd27-310540e007c7" />
+          <generalization Id="398d22be-8da3-4a37-9123-a1d1ed85dd34" isSubstitutable="false">
+            <classMoniker Id="a88b5c6a-4ca4-4b04-9104-d44671c3897a" LastKnownName="AxisWithSplitLine" />
+            <elementDefinition Id="3ca5cc48-5d39-4c61-b813-364b60ea4af4" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
@@ -406,15 +394,6 @@
           </property>
           <property Id="fbf74a83-5162-45f9-a563-b1aa9de1d5e0" name="MaxInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="56ee5d94-51f3-48cf-8132-ef9fc3f66840" />
-          </property>
-          <property Id="5d2356d4-9e71-482e-bb58-700b7fc327d5" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="c9486463-13d4-4b5b-8f42-432a62c112e1" />
-          </property>
-          <property Id="4f3d75c6-f1f0-4dd3-a1a9-43fa0f80d03c" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="99963d9e-bc17-43c5-a85b-ca35d319a4b0" />
-          </property>
-          <property Id="7a17744e-861e-41eb-8fbf-40eb5fe379ec" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="67ceb71d-1153-4520-97db-ab1331fe7a92" />
           </property>
           <property Id="5bd8ecdf-fafd-49b8-9e1a-e994186985ee" name="AplitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="74ef8480-ff9e-4cd5-a95d-775050e9406e" />
@@ -496,9 +475,6 @@
           <property Id="02f300c4-bbe1-405b-b2b1-706a746a50eb" name="Scale" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="19e2e1d6-8e27-4b01-8f00-4dd9070572b1" />
           </property>
-          <property Id="5dca94b9-7ef9-4e1e-9ef4-6fb66408993a" name="SplitNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="cf30f450-f531-41e3-a3a6-1445da9e2f46" />
-          </property>
           <property Id="e0706c23-4053-4f7d-9f6b-81c7f2b5c3f6" name="MinInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="848720f3-7b5b-4738-bbaa-a4c18e1e9d0e" />
           </property>
@@ -507,12 +483,6 @@
           </property>
           <property Id="44733110-59f8-4116-8898-21b656a51cfb" name="MaxInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="70487d3a-ef64-4ecc-84d4-a87add888314" />
-          </property>
-          <property Id="261e9282-ec3e-444f-ae67-7104582028c9" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ec0ff21a-ef0d-408f-ad7a-81b7225e93fb" />
-          </property>
-          <property Id="fb5e8852-c938-4217-b7a3-57c6a8ba17a4" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="f199e370-52a3-497f-a657-cb2ef853c131" />
           </property>
           <property Id="f93b023a-20d8-48c2-85e3-11963b6d4960" name="AplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="011984e8-9bb9-48ef-b4a6-8e97171f02a7" />
@@ -536,9 +506,9 @@
       <class Id="169f7f84-9b73-4a42-b8d6-095c61b0e0fb" name="AngleAxis" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="62538b40-29a1-4f88-a53b-1550cbc1edb8" />
         <generalsInternal>
-          <generalization Id="c2efc1c0-eaaa-4aad-bad4-aed2dcfcab22" isSubstitutable="false">
-            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
-            <elementDefinition Id="ad2a81c8-b99a-40dc-8cef-e872331c43ca" />
+          <generalization Id="f1585b5a-714e-413f-a1f5-19472b88988d" isSubstitutable="false">
+            <classMoniker Id="a88b5c6a-4ca4-4b04-9104-d44671c3897a" LastKnownName="AxisWithSplitLine" />
+            <elementDefinition Id="dc0cfd40-28c1-458f-bacb-c175bddfc78f" />
           </generalization>
         </generalsInternal>
         <ownedAttributesInternal>
@@ -563,9 +533,6 @@
           <property Id="133f49bf-8228-4a6b-b8b1-ce2c507cdda6" name="Scale" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="0e4920db-d634-4d7e-8678-6ed3726d77c4" />
           </property>
-          <property Id="7a11aaf6-d3c4-41f2-a06b-7c9c3a7b3c81" name="SplitNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="468641f9-5543-49ff-8e07-e8b5d8b7ec9f" />
-          </property>
           <property Id="4db8599b-e539-4219-bbea-edcb7843fdf3" name="MinInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="b2b24127-8ce1-430f-80e0-5a0b328f87ee" />
           </property>
@@ -574,15 +541,6 @@
           </property>
           <property Id="c9e38b16-c38e-4a5e-b9f4-b279053fafde" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="3fd2fe86-ea39-4983-833d-1ec56d50c50e" />
-          </property>
-          <property Id="9740e28a-935c-471f-93ee-1c15952fcf98" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="e03586b0-a908-4763-b845-a7e1e40e899a" />
-          </property>
-          <property Id="667d1fdc-f6fb-4e0c-af45-e04a2f68e8aa" name="triggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="d6ba6387-5e96-4849-be68-5fbe2a1a07a2" />
-          </property>
-          <property Id="ec56a9b5-e152-49d8-b763-22f4d728cfac" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="2bdb01b2-a07b-4ea7-b105-689ea37117e0" />
           </property>
           <property Id="ee529686-90fb-4cc8-a08b-65c33aeaf7c9" name="SplitArea" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="98ce67c5-4374-4f95-98c9-2859e8fb10eb" />
@@ -1047,9 +1005,6 @@
           <property Id="b004061e-8907-43c2-83ab-9dadab2c78fe" name="Scale" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="99bdccca-b0d4-4c9a-86b8-fa208ba648d0" />
           </property>
-          <property Id="9e04bcde-91d8-47c4-a6bb-28f48e129a39" name="SplitNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="c2d52bbc-9a8f-4fc4-8b69-5d4aae7127ac" />
-          </property>
           <property Id="60aa8be6-b25d-4bba-977c-1646784c2ba5" name="MinInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="eaa59a15-bf49-445f-a4d2-7024dc5cbf69" />
           </property>
@@ -1058,12 +1013,6 @@
           </property>
           <property Id="d084be8d-5be4-4889-9201-aa2b0544b304" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="4b4bbda5-e6cd-480a-8e75-11849c773a6d" />
-          </property>
-          <property Id="5b61ba77-900e-4522-957a-bd8549cdd6f2" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="83f298c2-88f7-4977-942d-2cb39049448e" />
-          </property>
-          <property Id="c80540a3-0e27-4caa-809f-b11cbfaf40e6" name="triggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="274a7f4a-ce92-4cd3-993e-b5fa31a18547" />
           </property>
         </ownedAttributesInternal>
       </class>
@@ -1135,9 +1084,6 @@
           <property Id="a655fe0b-3cda-4cbc-8bf6-daa128304794" name="Scale" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="c373a895-b99d-4bf8-8b2b-053c0a62bda1" />
           </property>
-          <property Id="312d2149-c879-44bf-9127-edb4d1ec69ba" name="SplitNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="4a857318-9648-4ff5-8ac3-43e59d11978c" />
-          </property>
           <property Id="e4a7af04-0fee-493f-8d00-1c2c5c6e7210" name="MinInterval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="2e3d7adf-0359-4728-a11d-7cda8ad6632d" />
           </property>
@@ -1146,12 +1092,6 @@
           </property>
           <property Id="ebd25f73-b27d-45a3-8a7c-a78ebe73369f" name="Interval" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="5c72d4bd-4134-4d2b-a5c6-59ad347ea73e" />
-          </property>
-          <property Id="978fbf6d-8257-484e-8da9-0537e270e4c2" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="b5c5d7bb-4919-4662-b5f7-64ff03eb8bca" />
-          </property>
-          <property Id="5ab29783-b930-43f3-83a6-0dc5c9e05ea3" name="TriggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="d09089ce-e3d5-48b8-99b7-4a6c4860d441" />
           </property>
           <property Id="e7bd9e7d-5b31-4eac-8ad3-5a197a17950f" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="88c7e10e-f36b-4100-9fa6-96e8ad451d44" />
@@ -1608,6 +1548,31 @@
           </property>
           <property Id="37d58225-2da3-4274-9113-7513f7271708" name="Type" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="cf46ac63-24bb-4b9e-b14a-3822d379ecaf" />
+          </property>
+          <property Id="1bcf9561-5932-4b13-9cd7-398ef654b349" name="Silent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="df9ba5b9-d2eb-4073-8442-a0e1c611b3b3" />
+          </property>
+          <property Id="66263413-5f2c-46ac-b633-3aff094cdc16" name="triggerEvent" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7b5220c-918f-4a0f-907b-a8444f98262e" />
+          </property>
+          <property Id="ca00a424-2fa1-4b39-bfd1-87b56e68308c" name="SplitNumber" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ef4a34ae-55db-4fd3-9a7f-cb6fc1dcfb02" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a88b5c6a-4ca4-4b04-9104-d44671c3897a" name="AxisWithSplitLine" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fbbf04bd-b44e-424e-a6b0-49fb455cda7c" />
+        <generalsInternal>
+          <generalization Id="69e2bc81-5e55-484f-85a2-5df4443f102e" isSubstitutable="false">
+            <classMoniker Id="f57f567c-8056-4750-ba7b-2e1f8a71dbc9" LastKnownName="Axis" />
+            <elementDefinition Id="a6042657-8307-4e84-b41a-b57faae83333" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="8e07a817-5728-4e2b-802e-90bc9c31fd6a" name="SplitLine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="66246853-d44e-4f44-abc8-0b0ce69b940f" />
           </property>
         </ownedAttributesInternal>
       </class>

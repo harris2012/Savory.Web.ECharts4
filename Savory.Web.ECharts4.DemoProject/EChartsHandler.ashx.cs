@@ -18,48 +18,9 @@ namespace Savory.Web.ECharts4.DemoProject
         {
             context.Response.ContentType = "application/json";
 
-            ProcessorBase processor = null;
-
             var id = context.Request.QueryString["id"];
-            switch (id)
-            {
-                case "firstexample":
-                    processor = new FirstExampleProcessor();
-                    break;
-                case "BasicLineChart":
-                    processor = new BasicLineChartProcessor();
-                    break;
-                case "BasicAreaChart":
-                    processor = new BasicAreaChartProcessor();
-                    break;
-                case "SmoothedLineChart":
-                    processor = new SmoothedLineChartProcessor();
-                    break;
-                case "StackedAreaChart":
-                    processor = new StackedAreaChartProcessor();
-                    break;
-                default:
-                    break;
-            }
 
-            if (processor != null)
-            {
-                var option = processor.GetOption();
-
-                var settings = new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore };
-                settings.Converters.Add(new LeftConvertor());
-                settings.Converters.Add(new AxisTypeConvertor());
-                settings.Converters.Add(new SerieTypeConvertor());
-                settings.Converters.Add(new SerieDataCollectionConvertor());
-
-                var content = JsonConvert.SerializeObject(option, Formatting.Indented, settings);
-
-                context.Response.Write(content);
-            }
-            else
-            {
-                context.Response.Write("{\"message\":\"id is null or not supported.\"}");
-            }
+            context.Response.Write(ProcessCore.Run(id));
         }
 
         public bool IsReusable

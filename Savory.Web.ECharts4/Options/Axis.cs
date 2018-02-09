@@ -18,6 +18,9 @@ namespace Savory.Web.ECharts4
         [JsonProperty("type")]
         public AxisType AXisType { get; set; }
 
+        /// <summary>
+        /// 通常是 List&lt;T&gt;，如果T是string，则T里面可以包含 '\n'，用于在页面上换行
+        /// </summary>
         [JsonProperty("data")]
         public object Data { get; set; }
     }

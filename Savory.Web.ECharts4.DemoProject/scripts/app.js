@@ -3,3 +3,4 @@
 app.config(route);
 
 app.service('EChartsService', ['$resource', '$q', EChartsService]);
+

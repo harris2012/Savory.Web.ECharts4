@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Savory.Web.ECharts4;
+using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4.Convertor
 {
-    public class SerieDataConvertor : JsonConverter
+    public class RightConvertor : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {
-            return objectType == typeof(SerieData);
+            return objectType == typeof(Right);
         }
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
@@ -22,21 +22,24 @@ namespace Savory.Web.ECharts4.Convertor
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
-            SerieData serieData = value as SerieData;
-            if (serieData == null)
+            Right right = value as Right;
+            if (right == null)
             {
                 return;
             }
-            if (serieData.Name == null)
-            {
-                writer.WriteValue(serieData.Value);
-            }
-            else
-            {
-                var itemString = JsonConvert.SerializeObject(serieData);
 
-                writer.WriteValue(itemString);
+            if (right.IntValue != null)
+            {
+                if (right.IsPercent)
+                {
+                    writer.WriteValue(right.IntValue.Value + "%");
+                }
+                else
+                {
+                    writer.WriteValue(right.IntValue.Value);
+                }
             }
         }
+
     }
 }

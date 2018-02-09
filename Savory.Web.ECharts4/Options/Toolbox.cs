@@ -10,7 +10,7 @@ namespace Savory.Web.ECharts4
     public class Toolbox
     {
         [JsonProperty("show")]
-        public bool Show { get; set; }
+        public bool? Show { get; set; }
 
         [JsonProperty("feature")]
         public Feature Feature { get; set; }

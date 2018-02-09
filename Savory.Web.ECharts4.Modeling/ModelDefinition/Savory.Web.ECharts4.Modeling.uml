@@ -905,11 +905,11 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="e1a0b565-a4e6-4908-be6f-a2859c5fd963"
+            Id="3c1bad64-eac6-4473-a2d2-79dc3e987e5c"
             isSubstitutable="false">
             <classMoniker
-              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
-              LastKnownName="Axis"
+              Id="fbbf04bd-b44e-424e-a6b0-49fb455cda7c"
+              LastKnownName="AxisWithSplitLine"
               LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
           </generalization>
         </generalsInternal>
@@ -1047,17 +1047,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="c5363c89-5f11-4bb1-8d65-4eec734fb4fc"
-            name="SplitNumber"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="193956f8-0582-4ef4-a593-ed679a0bc0b6"
             name="MinInterval"
             isLeaf="false"
@@ -1082,39 +1071,6 @@
           <property
             Id="a1ace315-eb4a-491f-ad9d-1c23f3d99d65"
             name="Interval"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="46a43474-fffb-4938-9f96-9154daf5eb03"
-            name="Silent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="4d690aa8-0e9b-4ded-9270-f8c40248b881"
-            name="TriggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="ce3d141d-083f-4b25-8fd8-74f44c317c46"
-            name="SplitLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1179,11 +1135,11 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="1c1ffcbf-0e7e-48a7-bd27-310540e007c7"
+            Id="3ca5cc48-5d39-4c61-b813-364b60ea4af4"
             isSubstitutable="false">
             <classMoniker
-              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
-              LastKnownName="Axis"
+              Id="fbbf04bd-b44e-424e-a6b0-49fb455cda7c"
+              LastKnownName="AxisWithSplitLine"
               LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
           </generalization>
         </generalsInternal>
@@ -1312,39 +1268,6 @@
           <property
             Id="56ee5d94-51f3-48cf-8132-ef9fc3f66840"
             name="MaxInterval"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="c9486463-13d4-4b5b-8f42-432a62c112e1"
-            name="Silent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="99963d9e-bc17-43c5-a85b-ca35d319a4b0"
-            name="TriggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="67ceb71d-1153-4520-97db-ab1331fe7a92"
-            name="SplitLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1606,17 +1529,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="cf30f450-f531-41e3-a3a6-1445da9e2f46"
-            name="SplitNumber"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="848720f3-7b5b-4738-bbaa-a4c18e1e9d0e"
             name="MinInterval"
             isLeaf="false"
@@ -1641,28 +1553,6 @@
           <property
             Id="70487d3a-ef64-4ecc-84d4-a87add888314"
             name="MaxInterval"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="ec0ff21a-ef0d-408f-ad7a-81b7225e93fb"
-            name="Silent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="f199e370-52a3-497f-a657-cb2ef853c131"
-            name="TriggerEvent"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -1738,11 +1628,11 @@
         isActiveClass="false">
         <generalsInternal>
           <generalization
-            Id="ad2a81c8-b99a-40dc-8cef-e872331c43ca"
+            Id="dc0cfd40-28c1-458f-bacb-c175bddfc78f"
             isSubstitutable="false">
             <classMoniker
-              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
-              LastKnownName="Axis"
+              Id="fbbf04bd-b44e-424e-a6b0-49fb455cda7c"
+              LastKnownName="AxisWithSplitLine"
               LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
           </generalization>
         </generalsInternal>
@@ -1825,17 +1715,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="468641f9-5543-49ff-8e07-e8b5d8b7ec9f"
-            name="SplitNumber"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="b2b24127-8ce1-430f-80e0-5a0b328f87ee"
             name="MinInterval"
             isLeaf="false"
@@ -1860,39 +1739,6 @@
           <property
             Id="3fd2fe86-ea39-4983-833d-1ec56d50c50e"
             name="Interval"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="e03586b0-a908-4763-b845-a7e1e40e899a"
-            name="Silent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="d6ba6387-5e96-4849-be68-5fbe2a1a07a2"
-            name="triggerEvent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="2bdb01b2-a07b-4ea7-b105-689ea37117e0"
-            name="SplitLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -3417,17 +3263,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="c2d52bbc-9a8f-4fc4-8b69-5d4aae7127ac"
-            name="SplitNumber"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="eaa59a15-bf49-445f-a4d2-7024dc5cbf69"
             name="MinInterval"
             isLeaf="false"
@@ -3452,28 +3287,6 @@
           <property
             Id="4b4bbda5-e6cd-480a-8e75-11849c773a6d"
             name="Interval"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="83f298c2-88f7-4977-942d-2cb39049448e"
-            name="Silent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="274a7f4a-ce92-4cd3-993e-b5fa31a18547"
-            name="triggerEvent"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -3713,17 +3526,6 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="4a857318-9648-4ff5-8ac3-43e59d11978c"
-            name="SplitNumber"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
             Id="2e3d7adf-0359-4728-a11d-7cda8ad6632d"
             name="MinInterval"
             isLeaf="false"
@@ -3748,28 +3550,6 @@
           <property
             Id="5c72d4bd-4134-4d2b-a5c6-59ad347ea73e"
             name="Interval"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="b5c5d7bb-4919-4662-b5f7-64ff03eb8bca"
-            name="Silent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="d09089ce-e3d5-48b8-99b7-4a6c4860d441"
-            name="TriggerEvent"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -5079,6 +4859,71 @@
           <property
             Id="cf46ac63-24bb-4b9e-b14a-3822d379ecaf"
             name="Type"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="df9ba5b9-d2eb-4073-8442-a0e1c611b3b3"
+            name="Silent"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e7b5220c-918f-4a0f-907b-a8444f98262e"
+            name="triggerEvent"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="ef4a34ae-55db-4fd3-9a7f-cb6fc1dcfb02"
+            name="SplitNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fbbf04bd-b44e-424e-a6b0-49fb455cda7c"
+        name="AxisWithSplitLine"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="a6042657-8307-4e84-b41a-b57faae83333"
+            isSubstitutable="false">
+            <classMoniker
+              Id="666f9adf-4637-480d-9a9b-ed7adf956f61"
+              LastKnownName="Axis"
+              LastKnownLocation="Savory.Web.ECharts4.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="66246853-d44e-4f44-abc8-0b0ce69b940f"
+            name="SplitLine"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

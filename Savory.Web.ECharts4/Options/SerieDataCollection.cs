@@ -27,5 +27,23 @@ namespace Savory.Web.ECharts4
 
             return returnValue;
         }
+
+        public static implicit operator SerieDataCollection(List<float> serieDataList)
+        {
+            SerieDataCollection returnValue = new SerieDataCollection();
+
+            returnValue.SerieDataList = serieDataList.Select(v => new SerieData { Value = v }).ToList();
+
+            return returnValue;
+        }
+
+        public static implicit operator SerieDataCollection(List<double> serieDataList)
+        {
+            SerieDataCollection returnValue = new SerieDataCollection();
+
+            returnValue.SerieDataList = serieDataList.Select(v => new SerieData { Value = v }).ToList();
+
+            return returnValue;
+        }
     }
 }

@@ -1,0 +1,48 @@
+{
+  "xAxis": {
+    "type": "category",
+    "data": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ]
+  },
+  "yAxis": [
+    {
+      "type": "value"
+    }
+  ],
+  "series": [
+    {
+      "type": "line",
+      "data": [
+        {
+          "value": 820.0
+        },
+        {
+          "value": 932.0
+        },
+        {
+          "value": 901.0
+        },
+        {
+          "value": 934.0
+        },
+        {
+          "value": 1290.0
+        },
+        {
+          "value": 1330.0
+        },
+        {
+          "value": 1320.0
+        }
+      ],
+      "smooth": true
+    }
+  ]
+}

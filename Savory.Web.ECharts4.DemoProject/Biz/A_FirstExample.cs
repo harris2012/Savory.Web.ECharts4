@@ -6,13 +6,14 @@ using System.Web;
 
 namespace Savory.Web.ECharts4.DemoProject.Biz
 {
-    public class FirstExampleProcessor : ProcessorBase
+    [Example("First Example")]
+    public class A_FirstExample : ProcessorBase
     {
         public override EChartsOption GetOption()
         {
             EChartsOption option = new EChartsOption();
-            option.TitleList = new List<Title>();
-            option.TitleList.Add(new Title { Text = "MainTitle", SubText = "link", Left = LeftEnum.Center });
+            option.TitleCollection = new List<Title>();
+            option.TitleCollection.Add(new Title { Text = "MainTitle", SubText = "link", Left = LeftEnum.Center });
 
             option.Toolbox = new Toolbox
             {
@@ -26,7 +27,7 @@ namespace Savory.Web.ECharts4.DemoProject.Biz
             option.Tooltip = new Tooltip { Formatter = "{a} <br/>{b} : {c} ({d}%)", Trigger = "item" };
             option.Calculable = true;
 
-            option.Legend = new Legend { Orient = "vertical", X = "left" };
+            option.Legend = new Legend { Orient = "vertical", Left = LeftEnum.Left };
             option.Legend.Data = new List<string>
             {
                 "成功",
@@ -65,7 +66,7 @@ namespace Savory.Web.ECharts4.DemoProject.Biz
             option.SerieList.Add(new Serie
             {
                 Name = "访问来源",
-                SerieType = SerieType.Pie,
+                SerieType = SerieTypeEnum.Pie,
                 Radius = new
                 List<string> { "50%", "70%" }
             });

@@ -44,12 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bottom.cs" />
     <Compile Include="Convertor\AxisTypeConvertor.cs" />
+    <Compile Include="Convertor\GridCollectionConvertor.cs" />
+    <Compile Include="Convertor\LabelMapConvertor.cs" />
+    <Compile Include="Convertor\RightConvertor.cs" />
+    <Compile Include="Convertor\BottomConvertor.cs" />
+    <Compile Include="Convertor\TopConvertor.cs" />
     <Compile Include="Convertor\LeftConvertor.cs" />
     <Compile Include="Convertor\SerieDataCollectionConvertor.cs" />
-    <Compile Include="Convertor\SerieDataConvertor.cs" />
     <Compile Include="Convertor\SerieTypeConvertor.cs" />
-    <Compile Include="EChartsOption.cs" />
+    <Compile Include="Convertor\TitleCollectionConvertor.cs" />
+    <Compile Include="Convertor\XAxisCollectionConvertor.cs" />
+    <Compile Include="Convertor\YAxisCollectionConvertor.cs" />
+    <Compile Include="Options\DataZoom.cs" />
+    <Compile Include="Options\EChartsOption.cs" />
+    <Compile Include="Extensions\EChartsOptionPartial.cs" />
     <Compile Include="Left.cs" />
     <Compile Include="LeftEnum.cs" />
     <Compile Include="Options\AreaStyle.cs" />
@@ -57,7 +67,10 @@
     <Compile Include="Options\AxisPointer.cs" />
     <Compile Include="Options\AxisTypeEnum.cs" />
     <Compile Include="Options\Feature.cs" />
+    <Compile Include="Options\Grid.cs" />
+    <Compile Include="Options\GridCollection.cs" />
     <Compile Include="Options\ItemStyle.cs" />
+    <Compile Include="Options\LabelMap.cs" />
     <Compile Include="Options\Layoutable.cs" />
     <Compile Include="Options\LayoutSizeable.cs" />
     <Compile Include="Options\Legend.cs" />
@@ -67,13 +80,21 @@
     <Compile Include="Options\SerieTypeEnum.cs" />
     <Compile Include="Options\SerieType.cs" />
     <Compile Include="Options\Title.cs" />
+    <Compile Include="Options\TitleCollection.cs" />
+    <Compile Include="Extensions\TitleExtension.cs" />
     <Compile Include="Options\Toolbox.cs" />
     <Compile Include="Options\Tooltip.cs" />
     <Compile Include="Options\View.cs" />
     <Compile Include="Options\XAxis.cs" />
     <Compile Include="Options\AxisType.cs" />
+    <Compile Include="Options\XAxisCollection.cs" />
     <Compile Include="Options\YAxis.cs" />
+    <Compile Include="Options\YAxisCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Right.cs" />
+    <Compile Include="RightEnum.cs" />
+    <Compile Include="Top.cs" />
+    <Compile Include="TopEnum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

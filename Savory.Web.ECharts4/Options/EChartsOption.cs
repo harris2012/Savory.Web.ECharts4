@@ -8,14 +8,13 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4
 {
-    public class EChartsOption
+    public partial class EChartsOption
     {
         /// <summary>
         /// 标题组件
         /// </summary>
         [JsonProperty("title")]
-        public List<Title> TitleList { get; set; }
-
+        public TitleCollection TitleCollection { get; set; }
 
         [JsonProperty("legend")]
         public Legend Legend { get; set; }
@@ -35,18 +34,27 @@ namespace Savory.Web.ECharts4
         /// 横坐标
         /// </summary>
         [JsonProperty("xAxis")]
-        public XAxis XAxis { get; set; }
+        public XAxisCollection XAxisCollection { get; set; }
 
         /// <summary>
         /// 纵坐标
         /// </summary>
         [JsonProperty("yAxis")]
-        public YAxis YAxis { get; set; }
+        public YAxisCollection YAxisCollection { get; set; }
 
         /// <summary>
         /// 系列
         /// </summary>
         [JsonProperty("series")]
         public List<Serie> SerieList { get; set; }
+
+        /// <summary>
+        /// 网格
+        /// </summary>
+        [JsonProperty("grid")]
+        public GridCollection GridCollection { get; set; }
+
+        [JsonProperty("dataZoom")]
+        public List<DataZoom> DataZoom { get; set; }
     }
 }

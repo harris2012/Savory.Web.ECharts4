@@ -1,0 +1,12 @@
+{
+  "title": {
+    "text": "柱状图动画延迟"
+  },
+  "legend": {
+    "data": [
+      "bar",
+      "bar2"
+    ],
+    "left": "left"
+  }
+}

@@ -11,26 +11,12 @@
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
 <body ng-app="echarts">
-    <header class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand">ECharts测试页面</a>
-            </div>
-        </div>
-    </header>
+
+    <div ui-view="header"></div>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                <ul class="nav">
-                    <li><a ui-sref="echarts.welcome">Home</a></li>
-                    <li><a ui-sref="echarts.example({id:'firstexample'})">First Example</a></li>
-                    <li><a ui-sref="echarts.example({id:'BasicLineChart'})">Basic Line Chart</a></li>
-                    <li><a ui-sref="echarts.example({id:'BasicAreaChart'})">Basic Area Chart</a></li>
-                    <li><a ui-sref="echarts.example({id:'SmoothedLineChart'})">Smoothed Line Chart</a></li>
-                    <li><a ui-sref="echarts.example({id:'StackedAreaChart'})">Stacked Area Chart</a></li>
-                </ul>
-            </div>
+            <div class="col-sm-2" ui-view="menu"></div>
             <div class="col-sm-10" ui-view></div>
         </div>
     </div>
@@ -52,6 +38,8 @@
 
     <script src="https://cdn.bootcss.com/echarts/4.0.2/echarts.min.js"></script>
 
+    <script src="scripts/controller/HeaderController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
+    <script src="scripts/controller/MenuController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
     <script src="scripts/controller/WelcomeController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
     <script src="scripts/controller/ExampleController.js?v=<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
 

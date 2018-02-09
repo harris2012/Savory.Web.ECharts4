@@ -5,25 +5,26 @@ using System.Web;
 
 namespace Savory.Web.ECharts4.DemoProject.Biz
 {
-    public class BasicAreaChartProcessor : ProcessorBase
+    [Example("Basic Area Chart")]
+    public class Line_BasicAreaChart : ProcessorBase
     {
         public override EChartsOption GetOption()
         {
             EChartsOption option = new EChartsOption();
 
-            option.XAxis = new XAxis
+            option.XAxisCollection = new XAxis
             {
                 AXisType = AxisType.Category,
                 Data = new List<string> { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" },
                 BoundaryGap = false
             };
 
-            option.YAxis = new YAxis { AXisType = AxisType.Value };
+            option.YAxisCollection = new YAxis { AXisType = AxisType.Value };
 
             option.SerieList = new List<Serie>();
             option.SerieList.Add(new Serie
             {
-                SerieType = SerieType.Line,
+                SerieType = SerieTypeEnum.Line,
                 Data = new List<int> { 820, 932, 901, 934, 1290, 1330, 1320 },
                 AreaStyle = new AreaStyle()
             });

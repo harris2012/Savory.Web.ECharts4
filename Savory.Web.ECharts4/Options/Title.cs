@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4
 {
-    public class Title : Layoutable
+    public partial class Title : Layoutable
     {
         [JsonProperty("text")]
         public string Text { get; set; }

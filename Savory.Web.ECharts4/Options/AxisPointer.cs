@@ -14,5 +14,8 @@ namespace Savory.Web.ECharts4
 
         [JsonProperty("label")]
         public Label Label { get; set; }
+
+        [JsonProperty("animation")]
+        public bool? Animation { get; set; }
     }
 }

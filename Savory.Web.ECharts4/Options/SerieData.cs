@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4
 {
+    /// <summary>
+    /// SerieDataConvertor
+    /// </summary>
     public class SerieData
     {
         [JsonProperty("name")]
         public string Name { get; set; }
 
         [JsonProperty("value")]
-        public int Value { get; set; }
+        public double Value { get; set; }
     }
 }

@@ -4,7 +4,19 @@
 
     $stateProvider.state('echarts', {
         url: '/',
-        template: '<div class="container" ui-view></div>'
+        views: {
+            'header': {
+                templateUrl: 'scripts/view/view_header.html?v=' + window.releaseNo,
+                controller: HeaderController
+            },
+            'menu': {
+                templateUrl: 'scripts/view/view_menu.html?v=' + window.releaseNo,
+                controller: MenuController
+            },
+            '': {
+                template: '<div class="container" ui-view></div>'
+            }
+        }
     });
 
     //欢迎页

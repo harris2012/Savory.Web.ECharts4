@@ -6,19 +6,20 @@ using System.Web;
 
 namespace Savory.Web.ECharts4.DemoProject.Biz
 {
-    public class BasicLineChartProcessor : ProcessorBase
+    [Example("Basic Line Chart")]
+    public class BasicLineChart : ProcessorBase
     {
         public override EChartsOption GetOption()
         {
             var option = new EChartsOption();
 
-            option.XAxis = new XAxis
+            option.XAxisCollection = new XAxis
             {
                 AXisType = AxisType.Category,
                 Data = new List<string> { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" }
             };
 
-            option.YAxis = new YAxis { AXisType = AxisType.Value };
+            option.YAxisCollection = new YAxis { AXisType = AxisType.Value };
 
             option.SerieList = new List<Serie>();
             option.SerieList.Add(new Serie());

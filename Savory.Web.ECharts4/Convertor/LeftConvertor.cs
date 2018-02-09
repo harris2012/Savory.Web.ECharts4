@@ -28,9 +28,9 @@ namespace Savory.Web.ECharts4.Convertor
                 return;
             }
 
-            if (left.LeftEnum != null)
+            if (left.EnumValue != null)
             {
-                switch (left.LeftEnum.Value)
+                switch (left.EnumValue.Value)
                 {
                     case LeftEnum.Left:
                         writer.WriteValue("left");
@@ -45,9 +45,16 @@ namespace Savory.Web.ECharts4.Convertor
                         break;
                 }
             }
-            else if (left.LeftValue != null)
+            else if (left.IntValue != null)
             {
-                writer.WriteValue(left.LeftValue);
+                if (left.IsPercent)
+                {
+                    writer.WriteValue(left.IntValue + "%");
+                }
+                else
+                {
+                    writer.WriteValue(left.IntValue);
+                }
             }
         }
 

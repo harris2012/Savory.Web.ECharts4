@@ -14,17 +14,20 @@ namespace Savory.Web.ECharts4
 
         [JsonProperty("saveAsImage")]
         public SaveAsImage SaveAsImage { get; set; }
+
+        [JsonProperty("dataZoom")]
+        public DataZoom DataZoom { get; set; }
     }
 
     public class Restore
     {
         [JsonProperty("show")]
-        public bool Show { get; set; }
+        public bool? Show { get; set; }
     }
 
     public class SaveAsImage
     {
         [JsonProperty("show")]
-        public bool Show { get; set; }
+        public bool? Show { get; set; }
     }
 }

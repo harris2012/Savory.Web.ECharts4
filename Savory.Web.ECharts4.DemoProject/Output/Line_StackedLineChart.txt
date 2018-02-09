@@ -1,0 +1,188 @@
+{
+  "title": {
+    "text": "折线图堆叠"
+  },
+  "legend": {
+    "data": [
+      "邮件营销",
+      "联盟广告",
+      "视频广告",
+      "直接访问",
+      "搜索引擎"
+    ]
+  },
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {}
+    }
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": {
+    "boundaryGap": false,
+    "type": "category",
+    "data": [
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+    ]
+  },
+  "yAxis": [
+    {
+      "type": "value"
+    }
+  ],
+  "series": [
+    {
+      "name": "邮件营销",
+      "type": "line",
+      "data": [
+        {
+          "value": 120.0
+        },
+        {
+          "value": 132.0
+        },
+        {
+          "value": 101.0
+        },
+        {
+          "value": 134.0
+        },
+        {
+          "value": 90.0
+        },
+        {
+          "value": 230.0
+        },
+        {
+          "value": 210.0
+        }
+      ],
+      "stack": "总量"
+    },
+    {
+      "name": "联盟广告",
+      "type": "line",
+      "data": [
+        {
+          "value": 220.0
+        },
+        {
+          "value": 182.0
+        },
+        {
+          "value": 191.0
+        },
+        {
+          "value": 234.0
+        },
+        {
+          "value": 290.0
+        },
+        {
+          "value": 330.0
+        },
+        {
+          "value": 310.0
+        }
+      ],
+      "stack": "总量"
+    },
+    {
+      "name": "视频广告",
+      "type": "line",
+      "data": [
+        {
+          "value": 150.0
+        },
+        {
+          "value": 232.0
+        },
+        {
+          "value": 201.0
+        },
+        {
+          "value": 154.0
+        },
+        {
+          "value": 190.0
+        },
+        {
+          "value": 330.0
+        },
+        {
+          "value": 410.0
+        }
+      ],
+      "stack": "总量"
+    },
+    {
+      "name": "直接访问",
+      "type": "line",
+      "data": [
+        {
+          "value": 320.0
+        },
+        {
+          "value": 332.0
+        },
+        {
+          "value": 301.0
+        },
+        {
+          "value": 334.0
+        },
+        {
+          "value": 390.0
+        },
+        {
+          "value": 330.0
+        },
+        {
+          "value": 320.0
+        }
+      ],
+      "stack": "总量"
+    },
+    {
+      "name": "搜索引擎",
+      "type": "line",
+      "data": [
+        {
+          "value": 820.0
+        },
+        {
+          "value": 932.0
+        },
+        {
+          "value": 901.0
+        },
+        {
+          "value": 934.0
+        },
+        {
+          "value": 1290.0
+        },
+        {
+          "value": 1330.0
+        },
+        {
+          "value": 1320.0
+        }
+      ],
+      "stack": "总量"
+    }
+  ],
+  "grid": {
+    "containLabel": true,
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%"
+  }
+}

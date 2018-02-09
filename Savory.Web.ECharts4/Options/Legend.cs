@@ -7,13 +7,10 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4
 {
-    public class Legend
+    public class Legend : LayoutSizeable
     {
         [JsonProperty("orient")]
         public string Orient { get; set; }
-
-        [JsonProperty("x")]
-        public string X { get; set; }
 
         [JsonProperty("data")]
         public object Data { get; set; }

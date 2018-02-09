@@ -67,28 +67,48 @@
     <Content Include="Default.aspx" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\controller\ExampleController.js" />
+    <Content Include="scripts\controller\HeaderController.js" />
+    <Content Include="scripts\controller\MenuController.js" />
     <Content Include="scripts\controller\WelcomeController.js" />
     <Content Include="scripts\route.js" />
     <Content Include="scripts\service\EChartsService.js" />
     <Content Include="scripts\view\view_example.html" />
+    <Content Include="scripts\view\view_header.html" />
+    <Content Include="scripts\view\view_menu.html" />
     <Content Include="scripts\view\view_welcome.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Biz\BasicAreaChartProcessor.cs" />
-    <Compile Include="Biz\BasicLineChartProcessor.cs" />
-    <Compile Include="Biz\FirstExampleProcessor.cs" />
+    <Compile Include="Biz\Bar_AnimationDelay.cs" />
+    <Compile Include="Biz\Line_LargeScaleAreaChart.cs" />
+    <Compile Include="Biz\Line_BasicAreaChart.cs" />
+    <Compile Include="Biz\BasicLineChart.cs" />
+    <Compile Include="Biz\A_FirstExample.cs" />
     <Compile Include="Biz\ProcessorBase.cs" />
-    <Compile Include="Biz\SmoothedLineChartProcessor.cs" />
-    <Compile Include="Biz\StackedAreaChartProcessor.cs" />
+    <Compile Include="Biz\Line_Rainfall.cs" />
+    <Compile Include="Biz\Line_SmoothedLineChart.cs" />
+    <Compile Include="Biz\Line_StackedAreaChart.cs" />
+    <Compile Include="Biz\Line_StackedLineChart.cs" />
     <Compile Include="EChartsHandler.ashx.cs">
       <DependentUpon>EChartsHandler.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Example.cs" />
+    <Compile Include="ExampleAttribute.cs" />
+    <Compile Include="ExampleProvider.cs" />
+    <Compile Include="ExamplesHandler.ashx.cs">
+      <DependentUpon>ExamplesHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="OutputHandler.ashx.cs">
+      <DependentUpon>OutputHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProcessCore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="EChartsHandler.ashx" />
+    <Content Include="OutputHandler.ashx" />
+    <Content Include="ExamplesHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

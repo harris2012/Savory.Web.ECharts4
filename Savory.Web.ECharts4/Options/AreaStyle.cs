@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,7 @@ namespace Savory.Web.ECharts4
 {
     public class AreaStyle
     {
+        [JsonProperty("normal")]
+        public object Normal { get; set; }
     }
 }

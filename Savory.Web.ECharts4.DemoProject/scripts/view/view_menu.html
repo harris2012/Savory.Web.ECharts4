@@ -1,0 +1,4 @@
+﻿<ul class="nav">
+    <li><a ui-sref="echarts.welcome">Home</a></li>
+    <li ng-repeat="example in examples"><a ui-sref="echarts.example({id:'{{example.name}}'})">{{example.title}}</a></li>
+</ul>

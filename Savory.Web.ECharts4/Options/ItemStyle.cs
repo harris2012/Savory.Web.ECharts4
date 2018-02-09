@@ -26,6 +26,9 @@ namespace Savory.Web.ECharts4
 
         [JsonProperty("textStyle")]
         public TextStyle TextStyle { get; set; }
+
+        [JsonProperty("backgroundColor")]
+        public string BackgroundColor { get; set; }
     }
 
     public class LabelLine

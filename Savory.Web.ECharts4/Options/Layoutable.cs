@@ -23,20 +23,49 @@ namespace Savory.Web.ECharts4
         ///  可以是像 20 这样的具体像素值，可以是像 '20%' 这样相对于容器高宽的百分比
         /// </summary>
         [JsonProperty("right")]
-        public string Right { get; set; }
+        public Right Right { get; set; }
 
         /// <summary>
         /// 组件离容器上侧的距离 string, number
         /// 可以是像 20 这样的具体像素值，可以是像 '20%' 这样相对于容器高宽的百分比，也可以是 'top', 'middle', 'bottom'
         /// </summary>
         [JsonProperty("top")]
-        public string Top { get; set; }
+        public Top Top { get; set; }
 
         /// <summary>
         /// 组件离容器下侧的距离 string, number
         /// 可以是像 20 这样的具体像素值，可以是像 '20%' 这样相对于容器高宽的百分比
         /// </summary>
         [JsonProperty("bottom")]
-        public string Bottom { get; set; }
+        public Bottom Bottom { get; set; }
+
+        public Layoutable SetLeft(Left left)
+        {
+            this.Left = left;
+
+            return this;
+        }
+
+        public Layoutable SetRight(Right right)
+        {
+            this.Right = right;
+
+            return this;
+        }
+
+        public Layoutable SetTop(Top top)
+        {
+            this.Top = top;
+
+            return this;
+        }
+
+        public Layoutable SetBottom(Bottom bottom)
+        {
+            this.Bottom = bottom;
+
+            return this;
+        }
+
     }
 }
