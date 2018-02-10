@@ -41,7 +41,6 @@ namespace Savory.Web.ECharts4.DemoProject
                 settings.Converters.Add(new XAxisCollectionConvertor());
                 settings.Converters.Add(new YAxisCollectionConvertor());
                 settings.Converters.Add(new GridCollectionConvertor());
-                settings.Converters.Add(new LabelMapConvertor());
 
                 return JsonConvert.SerializeObject(option, Formatting.Indented, settings);
             }

@@ -9,6 +9,9 @@ namespace Savory.Web.ECharts4
 {
     public class Serie
     {
+        [JsonProperty("avoidLabelOverlap")]
+        public bool? AvoidLabelOverlap;
+
         [JsonProperty("name")]
         public string Name { get; set; }
 
@@ -34,7 +37,7 @@ namespace Savory.Web.ECharts4
         public string Stack { get; set; }
 
         [JsonProperty("label")]
-        public LabelMap LabelMap { get; set; }
+        public LabelMap Label { get; set; }
 
         [JsonProperty("animation")]
         public bool? Animation { get; set; }
@@ -50,6 +53,9 @@ namespace Savory.Web.ECharts4
 
         [JsonProperty("xAxisIndex")]
         public int? XAxisIndex { get; set; }
+
+        [JsonProperty("labelLine")]
+        public LabelLineMap LabelLine { get; set; }
     }
 
     public class LineStyle

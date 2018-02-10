@@ -75,7 +75,7 @@ namespace Savory.Web.ECharts4.DemoProject.Biz
                 Name = "搜索引擎",
                 SerieType = SerieTypeEnum.Line,
                 Stack = "总量",
-                LabelMap = new KeyValuePair<string, Label>("normal", new Label { Show = true, Position = "top" }),
+                Label = new LabelMap { Normal = new Label { Show = true, Position = "top" } },
                 AreaStyle = new AreaStyle { Normal = new object() },
                 Data = new List<int> { 820, 932, 901, 934, 1290, 1330, 1320 }
             });

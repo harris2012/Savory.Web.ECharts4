@@ -47,7 +47,6 @@
     <Compile Include="Bottom.cs" />
     <Compile Include="Convertor\AxisTypeConvertor.cs" />
     <Compile Include="Convertor\GridCollectionConvertor.cs" />
-    <Compile Include="Convertor\LabelMapConvertor.cs" />
     <Compile Include="Convertor\RightConvertor.cs" />
     <Compile Include="Convertor\BottomConvertor.cs" />
     <Compile Include="Convertor\TopConvertor.cs" />
@@ -70,6 +69,7 @@
     <Compile Include="Options\Grid.cs" />
     <Compile Include="Options\GridCollection.cs" />
     <Compile Include="Options\ItemStyle.cs" />
+    <Compile Include="Options\LabelLineMap.cs" />
     <Compile Include="Options\LabelMap.cs" />
     <Compile Include="Options\Layoutable.cs" />
     <Compile Include="Options\LayoutSizeable.cs" />

@@ -84,6 +84,7 @@
     <Compile Include="Biz\Line_BasicAreaChart.cs" />
     <Compile Include="Biz\BasicLineChart.cs" />
     <Compile Include="Biz\A_FirstExample.cs" />
+    <Compile Include="Biz\Pie_DoughnutChart.cs" />
     <Compile Include="Biz\ProcessorBase.cs" />
     <Compile Include="Biz\Line_Rainfall.cs" />
     <Compile Include="Biz\Line_SmoothedLineChart.cs" />

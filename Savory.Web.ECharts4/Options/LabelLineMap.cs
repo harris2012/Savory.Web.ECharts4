@@ -7,12 +7,9 @@ using System.Threading.Tasks;
 
 namespace Savory.Web.ECharts4
 {
-    public class LabelMap
+    public class LabelLineMap
     {
         [JsonProperty("normal")]
-        public Label Normal { get; set; }
-
-        [JsonProperty("emphasis")]
-        public Label Emphasis { get; set; }
+        public LabelLine Normal { get; set; }
     }
 }
