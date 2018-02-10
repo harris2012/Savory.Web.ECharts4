@@ -1,0 +1,68 @@
+{
+  "legend": {
+    "orient": "vertical",
+    "data": [
+      "直接访问",
+      "邮件营销",
+      "联盟广告",
+      "视频广告",
+      "搜索引擎"
+    ],
+    "left": "left"
+  },
+  "tooltip": {
+    "trigger": "item",
+    "formatter": "{a} <br/>{b}: {c} ({d}%)"
+  },
+  "series": [
+    {
+      "avoidLabelOverlap": false,
+      "name": "访问来源",
+      "type": "pie",
+      "data": [
+        {
+          "name": "直接访问",
+          "value": 335.0
+        },
+        {
+          "name": "邮件营销",
+          "value": 310.0
+        },
+        {
+          "name": "联盟广告",
+          "value": 234.0
+        },
+        {
+          "name": "视频广告",
+          "value": 135.0
+        },
+        {
+          "name": "搜索引擎",
+          "value": 1548.0
+        }
+      ],
+      "radius": [
+        "50%",
+        "70%"
+      ],
+      "label": {
+        "normal": {
+          "show": false,
+          "position": "center"
+        },
+        "emphasis": {
+          "show": true,
+          "textStyle": {
+            "fontSize": 30,
+            "fontWeight": "bold"
+          }
+        }
+      },
+      "labelLine": {
+        "normal": {
+          "show": false
+        }
+      }
+    }
+  ]
+}

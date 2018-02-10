@@ -10,7 +10,7 @@ namespace Savory.Web.ECharts4.DemoProject.Biz
     {
         public override EChartsOption GetOption()
         {
-            int count = 100;
+            int count = 10;
 
             EChartsOption option = new EChartsOption();
 

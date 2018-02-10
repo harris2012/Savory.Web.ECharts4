@@ -27,7 +27,7 @@ namespace Savory.Web.ECharts4.DemoProject.Biz
             option.DataZoom.Add(new DataZoom { Type = "inside", RealTime = true, Start = 65, End = 85 });
 
             DateTime start = new DateTime(2009, 6, 12, 2, 0, 0);
-            DateTime end = new DateTime(2009, 10, 2, 0, 0, 0);
+            DateTime end = new DateTime(2009, 6, 14, 0, 0, 0);
             //DateTime end = new DateTime(2009, 6, 13, 0, 0, 0);
 
             option.XAxisCollection = new XAxis
